@@ -107,7 +107,7 @@ def getSessiones(dataSet, sujeto):
             sesiones =  ["S01", "S02", "S03"]
             return sesiones
         if sujeto == "SB":
-            sesiones =  ["S01"]
+            sesiones =  ["S02"]
             return sesiones
     if dataSet == "DATA5":
         if sujeto == "SA":
@@ -136,7 +136,7 @@ def getFiles(dataSet, sujeto, tipo, sesion):
                 files.append("D4" + sujeto + tipo + "_" + sesion + "R" + run)
             return files
         if sujeto == "SB":
-            runs = ["1"]
+            runs = ["1", "2", "3", "4"]
             files = []
             for run in runs:
                 files.append("D4" + sujeto + tipo + "_" + sesion + "R" + run)

@@ -14,7 +14,7 @@ from mne.datasets import eegbci
 from mne import Epochs, pick_types, events_from_annotations
 
 def main():
-    trials1, info1 = get_epoch("Epoch/DATA4/", "D4SBI_S01")
+    trials1, info1 = get_epoch("Epoch/DATA4/", "D4SBI_S02")
     #print(trials1['left'][0][1])
     show_info(trials1, info1)
     report_psd(trials1, info1)
