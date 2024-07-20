@@ -14,17 +14,20 @@ from mne.datasets import eegbci
 from mne import Epochs, pick_types, events_from_annotations
 
 def main():
-    trials1, info1 = get_epoch("Epoch/DATA4/", "D4SBI_S02")
+    
+    trials1, info1 = get_epoch("Epoch/DATA4/", "D4SBI_S02_FI4S8ACH")
     #print(trials1['left'][0][1])
     show_info(trials1, info1)
     report_psd(trials1, info1)
     calculateML(trials1, info1, True)
     
-    trials2, info2 = get_epoch("Epoch/DATA3/", "D3S02")
+    """
+    trials2, info2 = get_epoch("Epoch/DATA3/", "D3S03I_S01__FI4S15CH")
     #print(trials2['left'][0][1])
     show_info(trials2, info2)
-    report_psd(trials2, info2)
-    calculateML(trials2, info2, True)
+    #report_psd(trials2, info2)
+    calculateML(trials2, info2, False)
+    """
     
 ## Funciones reporte    
 def show_info(trials, info):
@@ -136,13 +139,18 @@ def calculateML(trials, info, flag_plot):
     nchannels = len(channel_names)
     
     # PSD epoch bandpass
+    
     trials_filt = {cl1: bandpass(trials[cl1], 8, 15, sample_rate),
                    cl2: bandpass(trials[cl2], 8, 15, sample_rate)}
+
+    
+    #trials_filt=trials
     
     train, test = prepareData(trials_filt, cl_lab)
     
-    #print("train: ", train['left']) 
-    #print("test: ", test['left'].shape) 
+    print("train rest: ", train['rest'] ) 
+    #print("train right: ", train['right'] ) 
+    #print("test: ", test['rest'].shape) 
     
     W,b = train_lda(train[cl1], train[cl2])
     print('W:', W)
@@ -205,26 +213,37 @@ def prepareData(trials_filt, cl_lab):
     # Train the CSP on the training set only
     W = csp(train[cl1], train[cl2])
     
-    print("W:", W.shape)
+    print("W shape:", W.shape)
+    #print("W: ", W)
     
+    print("train: ",train[cl1].shape)
     # Apply the CSP on both the training and test set
     train[cl1] = apply_mix(W, train[cl1])
     train[cl2] = apply_mix(W, train[cl2])
     test[cl1] = apply_mix(W, test[cl1])
     test[cl2] = apply_mix(W, test[cl2])
     
+    print("train: ",train[cl1][0,:,0])
+    
     # Select only the first and last components for classification
     comp = np.array([0,-1])
+    print("comp: ", comp)
     train[cl1] = train[cl1][:,comp,:]
     train[cl2] = train[cl2][:,comp,:]
     test[cl1] = test[cl1][:,comp,:]
     test[cl2] = test[cl2][:,comp,:]
+    
+    print("train: ",train[cl1].shape)
+    print("train: ",train[cl1][0,:,0])
     
     # Calculate the log-var
     train[cl1] = logvar(train[cl1])
     train[cl2] = logvar(train[cl2])
     test[cl1] = logvar(test[cl1])
     test[cl2] = logvar(test[cl2])
+    
+    print("train: ",train[cl1].shape)
+    print("train: ",train[cl1][0])
     
     return train, test
     
@@ -239,12 +258,15 @@ def get_epoch(path, filename):
 
     cl_lab=list(epochs.event_id.keys())
     keys=list(epochs.event_id.values())
-        
+    
+    #epochs=epochs.filter(8, 15)
     epochs0=epochs[epochs.events[:,2]==keys[0]]
     epochs1=epochs[epochs.events[:,2]==keys[1]]
     
     trials[cl_lab[0]] = epochs0.get_data(units='uV')
     trials[cl_lab[1]] = epochs1.get_data(units='uV')
+    
+
     
     info['sample_rate'] = sample_rate
     info['cl_lab'] = cl_lab

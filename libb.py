@@ -270,7 +270,12 @@ def cov(trials):
     ''' Calculate the covariance for each trial and return their average '''
     ntrials = trials.shape[0]
     nsamples = trials.shape[2]
+    print("ntrials: ",ntrials)
+    print("nsamples: ",nsamples)
+    test =  trials[0,:,:].dot(trials[0,:,:].T)
+    print("test ",test.shape)
     covs = [ trials[i,:,:].dot(trials[i,:,:].T) / nsamples for i in range(ntrials) ]
+    print("covs: ", (covs[0][0]) )
     return np.mean(covs, axis=0)
 
 def whitening(sigma):
@@ -287,11 +292,27 @@ def csp(trials_r, trials_f):
     returns:
         Mixing matrix W
     '''
+    print("trials_r: ", trials_r.shape)
+    print("trials_f: " ,trials_f.shape)
     cov_r = cov(trials_r)
     cov_f = cov(trials_f)
+    
+    print("cov_r: ", cov_r.shape)
+    print("cov_f: ", cov_f.shape)
+
+    #print("cov_r: ", cov_r)
+    #print("cov_f: ", cov_f)    
+    
+    #print("sigma: ", cov_r + cov_f)
     P = whitening(cov_r + cov_f)
+    print("P: ", P.shape)
+    
     B, _, _ = linalg.svd( P.T.dot(cov_f).dot(P) )
+    print("B: ", B.shape)
+    
     W = P.dot(B)
+    print("W: ", W.shape)
+    
     return W
 
 def apply_mix(W, trials):

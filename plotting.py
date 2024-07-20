@@ -41,9 +41,14 @@ def main():
     #path="../EEG data/Raw fif/" + sujeto +"/"
     path="Raw/DATA5/" + sujeto + "/" + sesion + "/" 
     
-    files = ["Raw/DATA4/SA/S01/D4SAI_S01R1_eeg.fif", 
-             "Raw/DATA3/S02/S01/D3S02I_S01R1_eeg.fif"]
     
+    files = ["Raw/DATA3/S02/S01/D3S02I_S01R1_eeg.fif",
+             "Raw/DATA4/SB/S02/D4SBI_S02R1_eeg.fif"]
+    
+    """
+    files2 = ["Raw/DATA4/SA/S01/D4SAI_S01R1_eeg.fif",
+             "Raw/DATA3/S02/S01/D3S02I_S01R1_eeg.fif"]
+    """
     #fileName = sujeto + "_FILT_S1R" + run
     #fileName =  data + sujeto + tipo + "_" + sesion + run    
     #fileRaw = fileName + "_eeg.fif"
@@ -52,6 +57,7 @@ def main():
     for file in files: 
         raw_crude = mne.io.read_raw_fif(file, preload=True)
         
+        print(raw_crude.info)
         #event, event_ids=mne.read_events(raw_crude)
         #event, event_id=mne.events_from_annotations(raw_crude)
         #events_from_file = mne.read_events(path + fileEve)

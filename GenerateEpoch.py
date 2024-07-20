@@ -33,17 +33,21 @@ from libb import *
 class GenerateEpoch:
 
     def run(self):
-        #tmin, tmax = 0.5, 2.5   #Rango para DATA1
-        tmin, tmax = 0, 4      #Rango para DATA3          
+        tmin, tmax = 0.5, 2.5   #Rango para DATA1
+        #tmin, tmax = 0, 4      #Rango para DATA3          
         print("tmin: ",tmin," - tmax: ", tmax )
 
-        #list_channel = ['Pz','Cz','T4','P4','C4','T3','P3','C3']  #TT2 #RR2
-        list_channel = ['Pz','Cz','T6','P4','C4','T5','P3','C3']   #TT3 #RR3
-        fil_filter = True
+        list_8ACH = ['Pz','Cz','T6','P4','C4','T5','P3','C3']  #TT3 #RR3  <-- con este se hicieron pruebas propias
+        list_8BCH = ['Pz','Cz','T4','P4','C4','T3','P3','C3']  #TT2 #RR2
+
+        
+        list_channel = list_8ACH
+        fil_filter = False
         fil_channel = False
 
         #dataSets = ["DATA1", "DATA3"]
         dataSets = ["DATA4"]
+        sufijo = "NF2S8ACH"
         
         for dataSet in dataSets:
         
@@ -56,7 +60,7 @@ class GenerateEpoch:
                 
                     pathRaw = "Raw/"+ dataSet +"/" + sujeto + "/" + sesion + "/"
                     pathEpoch = "Epoch/"+ dataSet +"/"
-                    fileNameOut = prefijo + sujeto + tipo + "_" +sesion
+                    fileNameOut = prefijo + sujeto + tipo + "_" + sesion + "_" + sufijo
                     files = getFiles(dataSet, sujeto, tipo, sesion)
                     epochs = []
                         
