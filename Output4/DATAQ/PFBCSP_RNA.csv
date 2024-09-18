@@ -1,0 +1,4 @@
+File,params,mean_test_score,std_test_score
+Epoch/DATAQ/D3S02I_S01_FI4S15CH-epo.fif,{'RNA__solver': 'lbfgs'},0.7526666666666667,0.11047171583713182
+Epoch/DATAQ/D3S02I_S01_FI4S15CH-epo.fif,{'RNA__solver': 'sgd'},0.82,0.09865765724632497
+Epoch/DATAQ/D3S02I_S01_FI4S15CH-epo.fif,{'RNA__solver': 'adam'},0.8106666666666668,0.10358893119762685

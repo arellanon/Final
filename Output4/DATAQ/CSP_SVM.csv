@@ -1,0 +1,5 @@
+File,params,mean_test_score,std_test_score
+Epoch/DATAQ/D3S02I_S01_FI4S15CH-epo.fif,{'SVM__kernel': 'poly'},0.806,0.09193959369547426
+Epoch/DATAQ/D3S02I_S01_FI4S15CH-epo.fif,{'SVM__kernel': 'linear'},0.7806666666666666,0.10637251106893696
+Epoch/DATAQ/D3S02I_S01_FI4S15CH-epo.fif,{'SVM__kernel': 'rbf'},0.7973333333333332,0.10281374745950403
+Epoch/DATAQ/D3S02I_S01_FI4S15CH-epo.fif,{'SVM__kernel': 'sigmoid'},0.612,0.11050590733329849

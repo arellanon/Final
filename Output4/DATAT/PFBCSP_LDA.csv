@@ -1,0 +1,117 @@
+File,params,mean_test_score,std_test_score
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__solver': 'svd', 'LDA__store_covariance': True, 'LDA__tol': 1e-05}",0.8066666666666665,0.10088497300281041
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__solver': 'svd', 'LDA__store_covariance': True, 'LDA__tol': 1e-06}",0.8066666666666665,0.10088497300281041
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__solver': 'svd', 'LDA__store_covariance': True, 'LDA__tol': 1e-07}",0.8066666666666665,0.10088497300281041
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__solver': 'svd', 'LDA__store_covariance': True, 'LDA__tol': 1e-08}",0.8066666666666665,0.10088497300281041
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__solver': 'svd', 'LDA__store_covariance': True, 'LDA__tol': 1e-09}",0.8066666666666665,0.10088497300281041
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__solver': 'svd', 'LDA__store_covariance': True, 'LDA__tol': 1e-10}",0.8066666666666665,0.10088497300281041
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__solver': 'svd', 'LDA__store_covariance': True, 'LDA__tol': 1e-11}",0.8066666666666665,0.10088497300281041
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__solver': 'svd', 'LDA__store_covariance': False, 'LDA__tol': 1e-05}",0.8066666666666665,0.10088497300281041
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__solver': 'svd', 'LDA__store_covariance': False, 'LDA__tol': 1e-06}",0.8066666666666665,0.10088497300281041
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__solver': 'svd', 'LDA__store_covariance': False, 'LDA__tol': 1e-07}",0.8066666666666665,0.10088497300281041
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__solver': 'svd', 'LDA__store_covariance': False, 'LDA__tol': 1e-08}",0.8066666666666665,0.10088497300281041
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__solver': 'svd', 'LDA__store_covariance': False, 'LDA__tol': 1e-09}",0.8066666666666665,0.10088497300281041
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__solver': 'svd', 'LDA__store_covariance': False, 'LDA__tol': 1e-10}",0.8066666666666665,0.10088497300281041
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__solver': 'svd', 'LDA__store_covariance': False, 'LDA__tol': 1e-11}",0.8066666666666665,0.10088497300281041
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': None, 'LDA__solver': 'lsqr'}",0.8066666666666665,0.10088497300281041
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 'auto', 'LDA__solver': 'lsqr'}",0.8286666666666666,0.09533799522400992
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.0, 'LDA__solver': 'lsqr'}",0.8066666666666665,0.10088497300281041
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.01, 'LDA__solver': 'lsqr'}",0.8073333333333332,0.09883544123665584
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.02, 'LDA__solver': 'lsqr'}",0.812,0.09398817892574461
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.03, 'LDA__solver': 'lsqr'}",0.8166666666666668,0.09585869229698939
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.04, 'LDA__solver': 'lsqr'}",0.8173333333333334,0.09504151139838263
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.05, 'LDA__solver': 'lsqr'}",0.8173333333333334,0.09550799850157987
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.06, 'LDA__solver': 'lsqr'}",0.8220000000000002,0.0975499871860576
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.07, 'LDA__solver': 'lsqr'}",0.8226666666666668,0.09853143886315906
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.08, 'LDA__solver': 'lsqr'}",0.8233333333333335,0.09769567259835231
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.09, 'LDA__solver': 'lsqr'}",0.8240000000000001,0.09546145237156667
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.1, 'LDA__solver': 'lsqr'}",0.8240000000000001,0.09638810438361504
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.11, 'LDA__solver': 'lsqr'}",0.8233333333333335,0.09585869229698939
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.12, 'LDA__solver': 'lsqr'}",0.8220000000000002,0.0975499871860576
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.13, 'LDA__solver': 'lsqr'}",0.8206666666666667,0.09692838134989727
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.14, 'LDA__solver': 'lsqr'}",0.82,0.09545214042184237
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.15, 'LDA__solver': 'lsqr'}",0.8213333333333334,0.09516301802696257
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.16, 'LDA__solver': 'lsqr'}",0.8213333333333332,0.09562891241088592
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.17, 'LDA__solver': 'lsqr'}",0.8220000000000002,0.09571021076376568
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.18, 'LDA__solver': 'lsqr'}",0.8220000000000001,0.09617345441094095
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.19, 'LDA__solver': 'lsqr'}",0.8206666666666668,0.09784114108537827
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.2, 'LDA__solver': 'lsqr'}",0.8206666666666667,0.09738583059151883
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.21, 'LDA__solver': 'lsqr'}",0.8206666666666667,0.09738583059151883
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.22, 'LDA__solver': 'lsqr'}",0.8206666666666667,0.09738583059151883
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.23, 'LDA__solver': 'lsqr'}",0.8206666666666667,0.09738583059151883
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.24, 'LDA__solver': 'lsqr'}",0.82,0.0977525219907679
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.25, 'LDA__solver': 'lsqr'}",0.8180000000000001,0.09836666101886352
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.26, 'LDA__solver': 'lsqr'}",0.8180000000000001,0.09608098435983865
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.27, 'LDA__solver': 'lsqr'}",0.8153333333333334,0.09654244892504256
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.28, 'LDA__solver': 'lsqr'}",0.816,0.09757959713883728
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.29, 'LDA__solver': 'lsqr'}",0.8153333333333334,0.09745882321381799
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.3, 'LDA__solver': 'lsqr'}",0.8166666666666665,0.09723968097209883
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.31, 'LDA__solver': 'lsqr'}",0.8173333333333332,0.09735159646011633
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.32, 'LDA__solver': 'lsqr'}",0.8173333333333332,0.09735159646011633
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.33, 'LDA__solver': 'lsqr'}",0.8166666666666665,0.09723968097209883
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.34, 'LDA__solver': 'lsqr'}",0.8166666666666665,0.09678154093971984
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.35000000000000003, 'LDA__solver': 'lsqr'}",0.816,0.09574038971208663
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.36, 'LDA__solver': 'lsqr'}",0.816,0.09574038971208663
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.37, 'LDA__solver': 'lsqr'}",0.8140000000000001,0.09628430124722653
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.38, 'LDA__solver': 'lsqr'}",0.8133333333333335,0.0966091783079296
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.39, 'LDA__solver': 'lsqr'}",0.8140000000000001,0.09628430124722653
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.4, 'LDA__solver': 'lsqr'}",0.8113333333333332,0.09845698440322952
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.41000000000000003, 'LDA__solver': 'lsqr'}",0.8093333333333333,0.0984411837935052
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.42, 'LDA__solver': 'lsqr'}",0.8106666666666666,0.09920573460127081
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.43, 'LDA__solver': 'lsqr'}",0.8106666666666666,0.09920573460127081
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.44, 'LDA__solver': 'lsqr'}",0.812,0.0995009771029634
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.45, 'LDA__solver': 'lsqr'}",0.8126666666666666,0.10008662914362407
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.46, 'LDA__solver': 'lsqr'}",0.812,0.0995009771029634
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.47000000000000003, 'LDA__solver': 'lsqr'}",0.8126666666666668,0.09829434255224348
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.48, 'LDA__solver': 'lsqr'}",0.812,0.09905329654057739
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.49, 'LDA__solver': 'lsqr'}",0.8106666666666666,0.09875671566475311
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.5, 'LDA__solver': 'lsqr'}",0.8113333333333334,0.09935570217936945
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.51, 'LDA__solver': 'lsqr'}",0.8113333333333334,0.09935570217936945
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.52, 'LDA__solver': 'lsqr'}",0.8113333333333332,0.09845698440322952
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.53, 'LDA__solver': 'lsqr'}",0.8113333333333334,0.09571021076376568
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.54, 'LDA__solver': 'lsqr'}",0.812,0.09632352891283742
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.55, 'LDA__solver': 'lsqr'}",0.812,0.09632352891283742
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.56, 'LDA__solver': 'lsqr'}",0.81,0.09445751543536506
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.5700000000000001, 'LDA__solver': 'lsqr'}",0.8080000000000002,0.09394087975364555
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.58, 'LDA__solver': 'lsqr'}",0.8086666666666668,0.09220990546935114
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.59, 'LDA__solver': 'lsqr'}",0.8086666666666668,0.09220990546935114
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.6, 'LDA__solver': 'lsqr'}",0.81,0.09207484877955424
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.61, 'LDA__solver': 'lsqr'}",0.8113333333333334,0.09240250116864926
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.62, 'LDA__solver': 'lsqr'}",0.8126666666666668,0.0922291831375635
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.63, 'LDA__solver': 'lsqr'}",0.8140000000000001,0.09299701309420882
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.64, 'LDA__solver': 'lsqr'}",0.8133333333333335,0.09380831519646861
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.65, 'LDA__solver': 'lsqr'}",0.8133333333333335,0.09521904571390467
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.66, 'LDA__solver': 'lsqr'}",0.8146666666666667,0.09502280428051646
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.67, 'LDA__solver': 'lsqr'}",0.816,0.09480740711803297
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.68, 'LDA__solver': 'lsqr'}",0.8166666666666665,0.09585869229698939
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.6900000000000001, 'LDA__solver': 'lsqr'}",0.816,0.09666436778875659
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.7000000000000001, 'LDA__solver': 'lsqr'}",0.816,0.09666436778875659
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.71, 'LDA__solver': 'lsqr'}",0.8146666666666667,0.09641576634555162
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.72, 'LDA__solver': 'lsqr'}",0.8133333333333332,0.0966091783079296
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.73, 'LDA__solver': 'lsqr'}",0.8126666666666665,0.09784114108537825
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.74, 'LDA__solver': 'lsqr'}",0.8146666666666667,0.09687563619862784
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.75, 'LDA__solver': 'lsqr'}",0.8153333333333334,0.09608098435983865
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.76, 'LDA__solver': 'lsqr'}",0.816,0.09527504045306587
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.77, 'LDA__solver': 'lsqr'}",0.816,0.09527504045306587
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.78, 'LDA__solver': 'lsqr'}",0.816,0.09527504045306587
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.79, 'LDA__solver': 'lsqr'}",0.816,0.09527504045306587
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.8, 'LDA__solver': 'lsqr'}",0.816,0.09757959713883728
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.81, 'LDA__solver': 'lsqr'}",0.816,0.09757959713883728
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.8200000000000001, 'LDA__solver': 'lsqr'}",0.8173333333333332,0.0982604249487611
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.8300000000000001, 'LDA__solver': 'lsqr'}",0.818,0.0970017181978409
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.84, 'LDA__solver': 'lsqr'}",0.8186666666666667,0.09664597479690734
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.85, 'LDA__solver': 'lsqr'}",0.8193333333333334,0.09765927161992012
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.86, 'LDA__solver': 'lsqr'}",0.8186666666666667,0.09891859728528753
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.87, 'LDA__solver': 'lsqr'}",0.8186666666666667,0.09981315878513548
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.88, 'LDA__solver': 'lsqr'}",0.8173333333333334,0.09735159646011636
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.89, 'LDA__solver': 'lsqr'}",0.8173333333333334,0.09916092420348296
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.9, 'LDA__solver': 'lsqr'}",0.8180000000000001,0.09745882321381796
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.91, 'LDA__solver': 'lsqr'}",0.8193333333333334,0.09811331317523746
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.92, 'LDA__solver': 'lsqr'}",0.8186666666666668,0.09710475443217668
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.93, 'LDA__solver': 'lsqr'}",0.8213333333333332,0.09375144443331707
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.9400000000000001, 'LDA__solver': 'lsqr'}",0.8233333333333333,0.09678154093971984
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.9500000000000001, 'LDA__solver': 'lsqr'}",0.8226666666666667,0.09807933296854929
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.96, 'LDA__solver': 'lsqr'}",0.8240000000000001,0.09911609354691095
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.97, 'LDA__solver': 'lsqr'}",0.8193333333333332,0.09901515035589253
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.98, 'LDA__solver': 'lsqr'}",0.8206666666666668,0.09738583059151883
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,"{'LDA__shrinkage': 0.99, 'LDA__solver': 'lsqr'}",0.8193333333333332,0.09488940931421169

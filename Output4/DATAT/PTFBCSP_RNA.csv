@@ -1,0 +1,4 @@
+File,params,mean_test_score,std_test_score
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,{'RNA__solver': 'lbfgs'},0.9193333333333337,0.07904710269481383
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,{'RNA__solver': 'sgd'},0.892,0.08261288573151822
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,{'RNA__solver': 'adam'},0.910666666666667,0.08176932323446379

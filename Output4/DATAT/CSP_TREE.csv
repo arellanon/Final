@@ -1,0 +1,4 @@
+File,params,mean_test_score,std_test_score
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,{'TREE__criterion': 'gini'},0.6839999999999997,0.12242730269202393
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,{'TREE__criterion': 'entropy'},0.6739999999999999,0.1281994973122403
+Epoch/DATAT/D3S02I_S01_FI2S8ACH-epo.fif,{'TREE__criterion': 'log_loss'},0.6739999999999999,0.1281994973122403
