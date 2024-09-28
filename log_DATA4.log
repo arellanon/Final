@@ -1,0 +1,1741 @@
+2024-09-27 03:17:09,478 input: Epoch/DATAQ/ 
+2024-09-27 03:17:09,479 output: Output6/DATAQ/ 
+2024-09-27 03:17:09,479 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:17:09,480 FILE: Epoch/DATAQ/D3S02I_S01_FI4S15CH-epo.fif
+2024-09-27 03:17:09,480 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:17:09,480 MODELO DE CLASIFICACION: LDA
+2024-09-27 03:17:10,510 X: (150, 2)
+2024-09-27 03:17:10,511 y: (150,)
+2024-09-27 03:17:27,659 Mean Accuracy: 0.799
+2024-09-27 03:17:27,660 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.9, 'LDA__solver': 'lsqr'}
+2024-09-27 03:17:27,849 Tiempo de ejecucion: 18.370
+2024-09-27 03:18:05,563 input: Epoch/DATA4/ 
+2024-09-27 03:18:05,563 output: Output6/DATA4/ 
+2024-09-27 03:18:05,567 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:18:05,567 FILE: Epoch/DATA4/D4SBI_S02_FI2S8ACH-epo.fif
+2024-09-27 03:18:05,568 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:18:05,568 MODELO DE CLASIFICACION: LDA
+2024-09-27 03:18:05,934 X: (160, 2)
+2024-09-27 03:18:05,934 y: (160,)
+2024-09-27 03:18:20,443 Mean Accuracy: 0.510
+2024-09-27 03:18:20,443 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.9, 'LDA__solver': 'lsqr'}
+2024-09-27 03:18:20,455 Tiempo de ejecucion: 14.891
+2024-09-27 03:18:20,457 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:18:20,457 FILE: Epoch/DATA4/D4SAI_S01_FI2S8ACH-epo.fif
+2024-09-27 03:18:20,458 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:18:20,458 MODELO DE CLASIFICACION: LDA
+2024-09-27 03:18:20,764 X: (160, 2)
+2024-09-27 03:18:20,768 y: (160,)
+2024-09-27 03:18:35,581 Mean Accuracy: 0.635
+2024-09-27 03:18:35,581 Config: {'LDA__n_components': None, 'LDA__solver': 'svd', 'LDA__store_covariance': True, 'LDA__tol': 1e-05}
+2024-09-27 03:18:35,593 Tiempo de ejecucion: 15.136
+2024-09-27 03:18:35,598 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:18:35,598 FILE: Epoch/DATA4/D4SAI_S03_NF2S8ACH-epo.fif
+2024-09-27 03:18:35,598 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:18:35,598 MODELO DE CLASIFICACION: LDA
+2024-09-27 03:18:36,008 X: (160, 2)
+2024-09-27 03:18:36,008 y: (160,)
+2024-09-27 03:18:51,606 Mean Accuracy: 0.581
+2024-09-27 03:18:51,607 Config: {'LDA__n_components': None, 'LDA__solver': 'svd', 'LDA__store_covariance': True, 'LDA__tol': 1e-05}
+2024-09-27 03:18:51,618 Tiempo de ejecucion: 16.021
+2024-09-27 03:18:51,622 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:18:51,623 FILE: Epoch/DATA4/D4SBI_S02_NF4S8ACH-epo.fif
+2024-09-27 03:18:51,623 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:18:51,623 MODELO DE CLASIFICACION: LDA
+2024-09-27 03:18:52,072 X: (160, 2)
+2024-09-27 03:18:52,072 y: (160,)
+2024-09-27 03:19:07,978 Mean Accuracy: 0.565
+2024-09-27 03:19:07,979 Config: {'LDA__n_components': None, 'LDA__solver': 'svd', 'LDA__store_covariance': True, 'LDA__tol': 1e-05}
+2024-09-27 03:19:07,990 Tiempo de ejecucion: 16.368
+2024-09-27 03:19:07,994 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:19:07,995 FILE: Epoch/DATA4/D4SAI_S02_NF2S8ACH-epo.fif
+2024-09-27 03:19:07,995 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:19:07,995 MODELO DE CLASIFICACION: LDA
+2024-09-27 03:19:08,356 X: (160, 2)
+2024-09-27 03:19:08,361 y: (160,)
+2024-09-27 03:19:23,900 Mean Accuracy: 0.615
+2024-09-27 03:19:23,900 Config: {'LDA__n_components': None, 'LDA__shrinkage': 'auto', 'LDA__solver': 'lsqr'}
+2024-09-27 03:19:23,912 Tiempo de ejecucion: 15.918
+2024-09-27 03:19:23,917 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:19:23,917 FILE: Epoch/DATA4/D4SAI_S01_NF2S8ACH-epo.fif
+2024-09-27 03:19:23,917 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:19:23,917 MODELO DE CLASIFICACION: LDA
+2024-09-27 03:19:24,161 X: (160, 2)
+2024-09-27 03:19:24,161 y: (160,)
+2024-09-27 03:19:40,073 Mean Accuracy: 0.506
+2024-09-27 03:19:40,073 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.1, 'LDA__solver': 'lsqr'}
+2024-09-27 03:19:40,089 Tiempo de ejecucion: 16.172
+2024-09-27 03:19:40,095 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:19:40,096 FILE: Epoch/DATA4/D4SAI_S03_FI4S8ACH-epo.fif
+2024-09-27 03:19:40,096 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:19:40,096 MODELO DE CLASIFICACION: LDA
+2024-09-27 03:19:40,400 X: (160, 2)
+2024-09-27 03:19:40,400 y: (160,)
+2024-09-27 03:19:57,165 Mean Accuracy: 0.531
+2024-09-27 03:19:57,165 Config: {'LDA__n_components': None, 'LDA__solver': 'svd', 'LDA__store_covariance': True, 'LDA__tol': 1e-05}
+2024-09-27 03:19:57,178 Tiempo de ejecucion: 17.083
+2024-09-27 03:19:57,183 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:19:57,183 FILE: Epoch/DATA4/D4SAI_S01_FI4S8ACH-epo.fif
+2024-09-27 03:19:57,184 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:19:57,184 MODELO DE CLASIFICACION: LDA
+2024-09-27 03:19:57,535 X: (160, 2)
+2024-09-27 03:19:57,535 y: (160,)
+2024-09-27 03:20:13,920 Mean Accuracy: 0.507
+2024-09-27 03:20:13,920 Config: {'LDA__n_components': None, 'LDA__solver': 'svd', 'LDA__store_covariance': True, 'LDA__tol': 1e-05}
+2024-09-27 03:20:13,932 Tiempo de ejecucion: 16.749
+2024-09-27 03:20:13,936 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:20:13,936 FILE: Epoch/DATA4/D4SAI_S02_FI4S8ACH-epo.fif
+2024-09-27 03:20:13,937 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:20:13,937 MODELO DE CLASIFICACION: LDA
+2024-09-27 03:20:14,328 X: (160, 2)
+2024-09-27 03:20:14,329 y: (160,)
+2024-09-27 03:20:30,127 Mean Accuracy: 0.517
+2024-09-27 03:20:30,127 Config: {'LDA__n_components': None, 'LDA__solver': 'svd', 'LDA__store_covariance': True, 'LDA__tol': 1e-05}
+2024-09-27 03:20:30,139 Tiempo de ejecucion: 16.203
+2024-09-27 03:20:30,144 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:20:30,144 FILE: Epoch/DATA4/D4SBI_S02_NF2S8ACH-epo.fif
+2024-09-27 03:20:30,144 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:20:30,144 MODELO DE CLASIFICACION: LDA
+2024-09-27 03:20:30,410 X: (160, 2)
+2024-09-27 03:20:30,416 y: (160,)
+2024-09-27 03:20:46,044 Mean Accuracy: 0.604
+2024-09-27 03:20:46,044 Config: {'LDA__n_components': None, 'LDA__shrinkage': 'auto', 'LDA__solver': 'lsqr'}
+2024-09-27 03:20:46,055 Tiempo de ejecucion: 15.912
+2024-09-27 03:20:46,060 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:20:46,060 FILE: Epoch/DATA4/D4SAI_S02_NF4S8ACH-epo.fif
+2024-09-27 03:20:46,060 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:20:46,060 MODELO DE CLASIFICACION: LDA
+2024-09-27 03:20:46,526 X: (160, 2)
+2024-09-27 03:20:46,526 y: (160,)
+2024-09-27 03:21:02,242 Mean Accuracy: 0.483
+2024-09-27 03:21:02,242 Config: {'LDA__n_components': None, 'LDA__solver': 'svd', 'LDA__store_covariance': True, 'LDA__tol': 1e-05}
+2024-09-27 03:21:02,254 Tiempo de ejecucion: 16.194
+2024-09-27 03:21:02,258 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:21:02,258 FILE: Epoch/DATA4/D4SAI_S01_NF4S8ACH-epo.fif
+2024-09-27 03:21:02,259 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:21:02,259 MODELO DE CLASIFICACION: LDA
+2024-09-27 03:21:02,722 X: (160, 2)
+2024-09-27 03:21:02,724 y: (160,)
+2024-09-27 03:21:18,926 Mean Accuracy: 0.509
+2024-09-27 03:21:18,926 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.1, 'LDA__solver': 'lsqr'}
+2024-09-27 03:21:18,937 Tiempo de ejecucion: 16.679
+2024-09-27 03:21:18,942 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:21:18,942 FILE: Epoch/DATA4/D4SAI_S02_FI2S8ACH-epo.fif
+2024-09-27 03:21:18,942 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:21:18,942 MODELO DE CLASIFICACION: LDA
+2024-09-27 03:21:19,132 X: (160, 2)
+2024-09-27 03:21:19,138 y: (160,)
+2024-09-27 03:21:34,907 Mean Accuracy: 0.576
+2024-09-27 03:21:34,907 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.5, 'LDA__solver': 'lsqr'}
+2024-09-27 03:21:34,919 Tiempo de ejecucion: 15.977
+2024-09-27 03:21:34,923 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:21:34,924 FILE: Epoch/DATA4/D4SBI_S02_FI4S8ACH-epo.fif
+2024-09-27 03:21:34,924 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:21:34,924 MODELO DE CLASIFICACION: LDA
+2024-09-27 03:21:35,337 X: (160, 2)
+2024-09-27 03:21:35,337 y: (160,)
+2024-09-27 03:21:50,993 Mean Accuracy: 0.498
+2024-09-27 03:21:50,993 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.9, 'LDA__solver': 'lsqr'}
+2024-09-27 03:21:51,005 Tiempo de ejecucion: 16.082
+2024-09-27 03:21:51,010 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:21:51,010 FILE: Epoch/DATA4/D4SAI_S03_FI2S8ACH-epo.fif
+2024-09-27 03:21:51,010 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:21:51,011 MODELO DE CLASIFICACION: LDA
+2024-09-27 03:21:51,315 X: (160, 2)
+2024-09-27 03:21:51,321 y: (160,)
+2024-09-27 03:22:06,942 Mean Accuracy: 0.654
+2024-09-27 03:22:06,942 Config: {'LDA__n_components': None, 'LDA__solver': 'svd', 'LDA__store_covariance': True, 'LDA__tol': 1e-05}
+2024-09-27 03:22:06,954 Tiempo de ejecucion: 15.944
+2024-09-27 03:22:06,958 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:22:06,958 FILE: Epoch/DATA4/D4SAI_S03_NF4S8ACH-epo.fif
+2024-09-27 03:22:06,958 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:22:06,959 MODELO DE CLASIFICACION: LDA
+2024-09-27 03:22:07,337 X: (160, 2)
+2024-09-27 03:22:07,337 y: (160,)
+2024-09-27 03:22:23,031 Mean Accuracy: 0.561
+2024-09-27 03:22:23,031 Config: {'LDA__n_components': None, 'LDA__solver': 'svd', 'LDA__store_covariance': True, 'LDA__tol': 1e-05}
+2024-09-27 03:22:23,043 Tiempo de ejecucion: 16.085
+2024-09-27 03:22:23,068 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:22:23,069 FILE: Epoch/DATA4/D4SBI_S02_FI2S8ACH-epo.fif
+2024-09-27 03:22:23,069 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:22:23,069 MODELO DE CLASIFICACION: SVM
+2024-09-27 03:22:23,215 X: (160, 2)
+2024-09-27 03:22:23,221 y: (160,)
+2024-09-27 03:22:39,524 Mean Accuracy: 0.525
+2024-09-27 03:22:39,524 Config: {'SVM__C': 0.01, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 03:22:39,538 Tiempo de ejecucion: 16.470
+2024-09-27 03:22:39,542 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:22:39,542 FILE: Epoch/DATA4/D4SAI_S01_FI2S8ACH-epo.fif
+2024-09-27 03:22:39,542 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:22:39,542 MODELO DE CLASIFICACION: SVM
+2024-09-27 03:22:39,645 X: (160, 2)
+2024-09-27 03:22:39,645 y: (160,)
+2024-09-27 03:22:56,272 Mean Accuracy: 0.636
+2024-09-27 03:22:56,272 Config: {'SVM__C': 10, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 03:22:56,285 Tiempo de ejecucion: 16.743
+2024-09-27 03:22:56,289 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:22:56,290 FILE: Epoch/DATA4/D4SAI_S03_NF2S8ACH-epo.fif
+2024-09-27 03:22:56,290 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:22:56,290 MODELO DE CLASIFICACION: SVM
+2024-09-27 03:22:56,389 X: (160, 2)
+2024-09-27 03:22:56,389 y: (160,)
+2024-09-27 03:23:13,423 Mean Accuracy: 0.576
+2024-09-27 03:23:13,423 Config: {'SVM__C': 1, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 03:23:13,435 Tiempo de ejecucion: 17.145
+2024-09-27 03:23:13,439 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:23:13,439 FILE: Epoch/DATA4/D4SBI_S02_NF4S8ACH-epo.fif
+2024-09-27 03:23:13,439 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:23:13,440 MODELO DE CLASIFICACION: SVM
+2024-09-27 03:23:13,631 X: (160, 2)
+2024-09-27 03:23:13,634 y: (160,)
+2024-09-27 03:23:30,591 Mean Accuracy: 0.669
+2024-09-27 03:23:30,592 Config: {'SVM__C': 10, 'SVM__class_weight': None, 'SVM__gamma': 1, 'SVM__kernel': 'rbf'}
+2024-09-27 03:23:30,604 Tiempo de ejecucion: 17.165
+2024-09-27 03:23:30,608 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:23:30,609 FILE: Epoch/DATA4/D4SAI_S02_NF2S8ACH-epo.fif
+2024-09-27 03:23:30,609 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:23:30,609 MODELO DE CLASIFICACION: SVM
+2024-09-27 03:23:30,716 X: (160, 2)
+2024-09-27 03:23:30,716 y: (160,)
+2024-09-27 03:23:47,488 Mean Accuracy: 0.609
+2024-09-27 03:23:47,488 Config: {'SVM__C': 1, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 03:23:47,501 Tiempo de ejecucion: 16.893
+2024-09-27 03:23:47,505 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:23:47,505 FILE: Epoch/DATA4/D4SAI_S01_NF2S8ACH-epo.fif
+2024-09-27 03:23:47,506 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:23:47,506 MODELO DE CLASIFICACION: SVM
+2024-09-27 03:23:47,685 X: (160, 2)
+2024-09-27 03:23:47,690 y: (160,)
+2024-09-27 03:24:04,565 Mean Accuracy: 0.526
+2024-09-27 03:24:04,565 Config: {'SVM__C': 1, 'SVM__class_weight': None, 'SVM__gamma': 1, 'SVM__kernel': 'rbf'}
+2024-09-27 03:24:04,577 Tiempo de ejecucion: 17.072
+2024-09-27 03:24:04,581 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:24:04,582 FILE: Epoch/DATA4/D4SAI_S03_FI4S8ACH-epo.fif
+2024-09-27 03:24:04,582 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:24:04,582 MODELO DE CLASIFICACION: SVM
+2024-09-27 03:24:04,883 X: (160, 2)
+2024-09-27 03:24:04,884 y: (160,)
+2024-09-27 03:24:20,875 Mean Accuracy: 0.538
+2024-09-27 03:24:20,875 Config: {'SVM__C': 100, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 03:24:20,887 Tiempo de ejecucion: 16.306
+2024-09-27 03:24:20,892 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:24:20,892 FILE: Epoch/DATA4/D4SAI_S01_FI4S8ACH-epo.fif
+2024-09-27 03:24:20,893 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:24:20,893 MODELO DE CLASIFICACION: SVM
+2024-09-27 03:24:21,134 X: (160, 2)
+2024-09-27 03:24:21,134 y: (160,)
+2024-09-27 03:24:37,645 Mean Accuracy: 0.489
+2024-09-27 03:24:37,646 Config: {'SVM__C': 10, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 03:24:37,657 Tiempo de ejecucion: 16.765
+2024-09-27 03:24:37,662 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:24:37,662 FILE: Epoch/DATA4/D4SAI_S02_FI4S8ACH-epo.fif
+2024-09-27 03:24:37,662 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:24:37,662 MODELO DE CLASIFICACION: SVM
+2024-09-27 03:24:37,861 X: (160, 2)
+2024-09-27 03:24:37,861 y: (160,)
+2024-09-27 03:24:54,875 Mean Accuracy: 0.521
+2024-09-27 03:24:54,876 Config: {'SVM__C': 100, 'SVM__class_weight': None, 'SVM__gamma': 1, 'SVM__kernel': 'rbf'}
+2024-09-27 03:24:54,888 Tiempo de ejecucion: 17.226
+2024-09-27 03:24:54,892 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:24:54,892 FILE: Epoch/DATA4/D4SBI_S02_NF2S8ACH-epo.fif
+2024-09-27 03:24:54,893 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:24:54,893 MODELO DE CLASIFICACION: SVM
+2024-09-27 03:24:54,985 X: (160, 2)
+2024-09-27 03:24:54,985 y: (160,)
+2024-09-27 03:25:12,412 Mean Accuracy: 0.625
+2024-09-27 03:25:12,412 Config: {'SVM__C': 10, 'SVM__class_weight': None, 'SVM__gamma': 0.1, 'SVM__kernel': 'rbf'}
+2024-09-27 03:25:12,424 Tiempo de ejecucion: 17.532
+2024-09-27 03:25:12,429 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:25:12,429 FILE: Epoch/DATA4/D4SAI_S02_NF4S8ACH-epo.fif
+2024-09-27 03:25:12,429 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:25:12,430 MODELO DE CLASIFICACION: SVM
+2024-09-27 03:25:12,604 X: (160, 2)
+2024-09-27 03:25:12,605 y: (160,)
+2024-09-27 03:25:29,832 Mean Accuracy: 0.557
+2024-09-27 03:25:29,832 Config: {'SVM__C': 10, 'SVM__class_weight': None, 'SVM__gamma': 1, 'SVM__kernel': 'rbf'}
+2024-09-27 03:25:29,846 Tiempo de ejecucion: 17.417
+2024-09-27 03:25:29,851 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:25:29,851 FILE: Epoch/DATA4/D4SAI_S01_NF4S8ACH-epo.fif
+2024-09-27 03:25:29,851 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:25:29,851 MODELO DE CLASIFICACION: SVM
+2024-09-27 03:25:30,120 X: (160, 2)
+2024-09-27 03:25:30,121 y: (160,)
+2024-09-27 03:25:46,955 Mean Accuracy: 0.490
+2024-09-27 03:25:46,955 Config: {'SVM__C': 0.01, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 03:25:46,967 Tiempo de ejecucion: 17.116
+2024-09-27 03:25:46,971 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:25:46,972 FILE: Epoch/DATA4/D4SAI_S02_FI2S8ACH-epo.fif
+2024-09-27 03:25:46,972 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:25:46,972 MODELO DE CLASIFICACION: SVM
+2024-09-27 03:25:47,098 X: (160, 2)
+2024-09-27 03:25:47,098 y: (160,)
+2024-09-27 03:26:03,244 Mean Accuracy: 0.608
+2024-09-27 03:26:03,244 Config: {'SVM__C': 100, 'SVM__class_weight': None, 'SVM__gamma': 1, 'SVM__kernel': 'rbf'}
+2024-09-27 03:26:03,256 Tiempo de ejecucion: 16.285
+2024-09-27 03:26:03,261 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:26:03,261 FILE: Epoch/DATA4/D4SBI_S02_FI4S8ACH-epo.fif
+2024-09-27 03:26:03,262 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:26:03,262 MODELO DE CLASIFICACION: SVM
+2024-09-27 03:26:03,543 X: (160, 2)
+2024-09-27 03:26:03,543 y: (160,)
+2024-09-27 03:26:19,804 Mean Accuracy: 0.551
+2024-09-27 03:26:19,804 Config: {'SVM__C': 100, 'SVM__class_weight': None, 'SVM__gamma': 0.1, 'SVM__kernel': 'rbf'}
+2024-09-27 03:26:19,816 Tiempo de ejecucion: 16.555
+2024-09-27 03:26:19,821 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:26:19,821 FILE: Epoch/DATA4/D4SAI_S03_FI2S8ACH-epo.fif
+2024-09-27 03:26:19,821 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:26:19,821 MODELO DE CLASIFICACION: SVM
+2024-09-27 03:26:20,009 X: (160, 2)
+2024-09-27 03:26:20,012 y: (160,)
+2024-09-27 03:26:36,369 Mean Accuracy: 0.654
+2024-09-27 03:26:36,370 Config: {'SVM__C': 100, 'SVM__class_weight': None, 'SVM__gamma': 0.1, 'SVM__kernel': 'rbf'}
+2024-09-27 03:26:36,382 Tiempo de ejecucion: 16.561
+2024-09-27 03:26:36,387 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:26:36,387 FILE: Epoch/DATA4/D4SAI_S03_NF4S8ACH-epo.fif
+2024-09-27 03:26:36,387 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:26:36,387 MODELO DE CLASIFICACION: SVM
+2024-09-27 03:26:36,587 X: (160, 2)
+2024-09-27 03:26:36,587 y: (160,)
+2024-09-27 03:26:53,155 Mean Accuracy: 0.547
+2024-09-27 03:26:53,155 Config: {'SVM__C': 1, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 03:26:53,167 Tiempo de ejecucion: 16.781
+2024-09-27 03:26:53,215 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:26:53,215 FILE: Epoch/DATA4/D4SBI_S02_FI2S8ACH-epo.fif
+2024-09-27 03:26:53,216 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:26:53,216 MODELO DE CLASIFICACION: KNN
+2024-09-27 03:26:53,340 X: (160, 2)
+2024-09-27 03:26:53,346 y: (160,)
+2024-09-27 03:27:08,486 Mean Accuracy: 0.450
+2024-09-27 03:27:08,486 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'manhattan', 'KNN__n_neighbors': 7, 'KNN__weights': 'uniform'}
+2024-09-27 03:27:08,499 Tiempo de ejecucion: 15.283
+2024-09-27 03:27:08,504 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:27:08,504 FILE: Epoch/DATA4/D4SAI_S01_FI2S8ACH-epo.fif
+2024-09-27 03:27:08,504 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:27:08,504 MODELO DE CLASIFICACION: KNN
+2024-09-27 03:27:08,630 X: (160, 2)
+2024-09-27 03:27:08,634 y: (160,)
+2024-09-27 03:27:23,582 Mean Accuracy: 0.605
+2024-09-27 03:27:23,582 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'manhattan', 'KNN__n_neighbors': 3, 'KNN__weights': 'uniform'}
+2024-09-27 03:27:23,595 Tiempo de ejecucion: 15.091
+2024-09-27 03:27:23,601 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:27:23,601 FILE: Epoch/DATA4/D4SAI_S03_NF2S8ACH-epo.fif
+2024-09-27 03:27:23,602 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:27:23,602 MODELO DE CLASIFICACION: KNN
+2024-09-27 03:27:23,734 X: (160, 2)
+2024-09-27 03:27:23,740 y: (160,)
+2024-09-27 03:27:38,741 Mean Accuracy: 0.531
+2024-09-27 03:27:38,742 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'manhattan', 'KNN__n_neighbors': 9, 'KNN__weights': 'uniform'}
+2024-09-27 03:27:38,753 Tiempo de ejecucion: 15.152
+2024-09-27 03:27:38,757 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:27:38,758 FILE: Epoch/DATA4/D4SBI_S02_NF4S8ACH-epo.fif
+2024-09-27 03:27:38,758 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:27:38,758 MODELO DE CLASIFICACION: KNN
+2024-09-27 03:27:38,949 X: (160, 2)
+2024-09-27 03:27:38,950 y: (160,)
+2024-09-27 03:27:54,036 Mean Accuracy: 0.652
+2024-09-27 03:27:54,036 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'manhattan', 'KNN__n_neighbors': 12, 'KNN__weights': 'uniform'}
+2024-09-27 03:27:54,048 Tiempo de ejecucion: 15.290
+2024-09-27 03:27:54,053 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:27:54,053 FILE: Epoch/DATA4/D4SAI_S02_NF2S8ACH-epo.fif
+2024-09-27 03:27:54,053 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:27:54,053 MODELO DE CLASIFICACION: KNN
+2024-09-27 03:27:54,184 X: (160, 2)
+2024-09-27 03:27:54,205 y: (160,)
+2024-09-27 03:28:09,091 Mean Accuracy: 0.553
+2024-09-27 03:28:09,092 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'manhattan', 'KNN__n_neighbors': 5, 'KNN__weights': 'uniform'}
+2024-09-27 03:28:09,104 Tiempo de ejecucion: 15.052
+2024-09-27 03:28:09,109 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:28:09,109 FILE: Epoch/DATA4/D4SAI_S01_NF2S8ACH-epo.fif
+2024-09-27 03:28:09,110 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:28:09,110 MODELO DE CLASIFICACION: KNN
+2024-09-27 03:28:09,252 X: (160, 2)
+2024-09-27 03:28:09,252 y: (160,)
+2024-09-27 03:28:24,176 Mean Accuracy: 0.519
+2024-09-27 03:28:24,176 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 7, 'KNN__weights': 'uniform'}
+2024-09-27 03:28:24,188 Tiempo de ejecucion: 15.079
+2024-09-27 03:28:24,193 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:28:24,193 FILE: Epoch/DATA4/D4SAI_S03_FI4S8ACH-epo.fif
+2024-09-27 03:28:24,194 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:28:24,194 MODELO DE CLASIFICACION: KNN
+2024-09-27 03:28:24,391 X: (160, 2)
+2024-09-27 03:28:24,391 y: (160,)
+2024-09-27 03:28:39,296 Mean Accuracy: 0.584
+2024-09-27 03:28:39,296 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'manhattan', 'KNN__n_neighbors': 3, 'KNN__weights': 'uniform'}
+2024-09-27 03:28:39,308 Tiempo de ejecucion: 15.115
+2024-09-27 03:28:39,313 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:28:39,313 FILE: Epoch/DATA4/D4SAI_S01_FI4S8ACH-epo.fif
+2024-09-27 03:28:39,313 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:28:39,314 MODELO DE CLASIFICACION: KNN
+2024-09-27 03:28:39,511 X: (160, 2)
+2024-09-27 03:28:39,511 y: (160,)
+2024-09-27 03:28:54,758 Mean Accuracy: 0.469
+2024-09-27 03:28:54,758 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 12, 'KNN__weights': 'uniform'}
+2024-09-27 03:28:54,770 Tiempo de ejecucion: 15.457
+2024-09-27 03:28:54,775 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:28:54,775 FILE: Epoch/DATA4/D4SAI_S02_FI4S8ACH-epo.fif
+2024-09-27 03:28:54,775 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:28:54,775 MODELO DE CLASIFICACION: KNN
+2024-09-27 03:28:55,076 X: (160, 2)
+2024-09-27 03:28:55,076 y: (160,)
+2024-09-27 03:29:09,867 Mean Accuracy: 0.574
+2024-09-27 03:29:09,868 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 9, 'KNN__weights': 'distance'}
+2024-09-27 03:29:09,880 Tiempo de ejecucion: 15.105
+2024-09-27 03:29:09,886 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:29:09,886 FILE: Epoch/DATA4/D4SBI_S02_NF2S8ACH-epo.fif
+2024-09-27 03:29:09,886 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:29:09,886 MODELO DE CLASIFICACION: KNN
+2024-09-27 03:29:10,004 X: (160, 2)
+2024-09-27 03:29:10,005 y: (160,)
+2024-09-27 03:29:24,947 Mean Accuracy: 0.559
+2024-09-27 03:29:24,947 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'manhattan', 'KNN__n_neighbors': 12, 'KNN__weights': 'uniform'}
+2024-09-27 03:29:24,959 Tiempo de ejecucion: 15.074
+2024-09-27 03:29:24,964 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:29:24,964 FILE: Epoch/DATA4/D4SAI_S02_NF4S8ACH-epo.fif
+2024-09-27 03:29:24,965 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:29:24,965 MODELO DE CLASIFICACION: KNN
+2024-09-27 03:29:25,161 X: (160, 2)
+2024-09-27 03:29:25,161 y: (160,)
+2024-09-27 03:29:40,103 Mean Accuracy: 0.557
+2024-09-27 03:29:40,103 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 3, 'KNN__weights': 'uniform'}
+2024-09-27 03:29:40,115 Tiempo de ejecucion: 15.151
+2024-09-27 03:29:40,120 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:29:40,120 FILE: Epoch/DATA4/D4SAI_S01_NF4S8ACH-epo.fif
+2024-09-27 03:29:40,120 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:29:40,120 MODELO DE CLASIFICACION: KNN
+2024-09-27 03:29:40,464 X: (160, 2)
+2024-09-27 03:29:40,469 y: (160,)
+2024-09-27 03:29:55,365 Mean Accuracy: 0.501
+2024-09-27 03:29:55,365 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 3, 'KNN__weights': 'distance'}
+2024-09-27 03:29:55,377 Tiempo de ejecucion: 15.258
+2024-09-27 03:29:55,382 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:29:55,382 FILE: Epoch/DATA4/D4SAI_S02_FI2S8ACH-epo.fif
+2024-09-27 03:29:55,383 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:29:55,383 MODELO DE CLASIFICACION: KNN
+2024-09-27 03:29:55,487 X: (160, 2)
+2024-09-27 03:29:55,488 y: (160,)
+2024-09-27 03:30:10,522 Mean Accuracy: 0.569
+2024-09-27 03:30:10,522 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'manhattan', 'KNN__n_neighbors': 12, 'KNN__weights': 'uniform'}
+2024-09-27 03:30:10,534 Tiempo de ejecucion: 15.152
+2024-09-27 03:30:10,539 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:30:10,540 FILE: Epoch/DATA4/D4SBI_S02_FI4S8ACH-epo.fif
+2024-09-27 03:30:10,540 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:30:10,540 MODELO DE CLASIFICACION: KNN
+2024-09-27 03:30:10,845 X: (160, 2)
+2024-09-27 03:30:10,851 y: (160,)
+2024-09-27 03:30:25,745 Mean Accuracy: 0.576
+2024-09-27 03:30:25,745 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 9, 'KNN__weights': 'distance'}
+2024-09-27 03:30:25,758 Tiempo de ejecucion: 15.219
+2024-09-27 03:30:25,763 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:30:25,764 FILE: Epoch/DATA4/D4SAI_S03_FI2S8ACH-epo.fif
+2024-09-27 03:30:25,764 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:30:25,764 MODELO DE CLASIFICACION: KNN
+2024-09-27 03:30:25,939 X: (160, 2)
+2024-09-27 03:30:25,944 y: (160,)
+2024-09-27 03:30:40,892 Mean Accuracy: 0.655
+2024-09-27 03:30:40,893 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 9, 'KNN__weights': 'uniform'}
+2024-09-27 03:30:40,904 Tiempo de ejecucion: 15.141
+2024-09-27 03:30:40,909 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:30:40,910 FILE: Epoch/DATA4/D4SAI_S03_NF4S8ACH-epo.fif
+2024-09-27 03:30:40,910 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:30:40,910 MODELO DE CLASIFICACION: KNN
+2024-09-27 03:30:41,206 X: (160, 2)
+2024-09-27 03:30:41,216 y: (160,)
+2024-09-27 03:30:56,268 Mean Accuracy: 0.549
+2024-09-27 03:30:56,269 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 5, 'KNN__weights': 'distance'}
+2024-09-27 03:30:56,281 Tiempo de ejecucion: 15.371
+2024-09-27 03:30:56,351 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:30:56,351 FILE: Epoch/DATA4/D4SBI_S02_FI2S8ACH-epo.fif
+2024-09-27 03:30:56,351 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:30:56,351 MODELO DE CLASIFICACION: ANN
+2024-09-27 03:30:56,486 X: (160, 2)
+2024-09-27 03:30:56,488 y: (160,)
+2024-09-27 03:33:20,195 Mean Accuracy: 0.557
+2024-09-27 03:33:20,196 Config: {'ANN__activation': 'relu', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'sgd'}
+2024-09-27 03:33:20,222 Tiempo de ejecucion: 143.871
+2024-09-27 03:33:20,232 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:33:20,232 FILE: Epoch/DATA4/D4SAI_S01_FI2S8ACH-epo.fif
+2024-09-27 03:33:20,232 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:33:20,232 MODELO DE CLASIFICACION: ANN
+2024-09-27 03:33:20,360 X: (160, 2)
+2024-09-27 03:33:20,360 y: (160,)
+2024-09-27 03:38:42,629 Mean Accuracy: 0.652
+2024-09-27 03:38:42,629 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (50,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 03:38:42,640 Tiempo de ejecucion: 322.410
+2024-09-27 03:38:42,645 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:38:42,645 FILE: Epoch/DATA4/D4SAI_S03_NF2S8ACH-epo.fif
+2024-09-27 03:38:42,645 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:38:42,645 MODELO DE CLASIFICACION: ANN
+2024-09-27 03:38:42,779 X: (160, 2)
+2024-09-27 03:38:42,785 y: (160,)
+2024-09-27 03:42:39,969 Mean Accuracy: 0.592
+2024-09-27 03:42:39,970 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'sgd'}
+2024-09-27 03:42:39,995 Tiempo de ejecucion: 237.350
+2024-09-27 03:42:40,005 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:42:40,006 FILE: Epoch/DATA4/D4SBI_S02_NF4S8ACH-epo.fif
+2024-09-27 03:42:40,006 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:42:40,006 MODELO DE CLASIFICACION: ANN
+2024-09-27 03:42:40,255 X: (160, 2)
+2024-09-27 03:42:40,255 y: (160,)
+2024-09-27 03:48:49,189 Mean Accuracy: 0.609
+2024-09-27 03:48:49,189 Config: {'ANN__activation': 'relu', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100, 50), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 03:48:49,214 Tiempo de ejecucion: 369.209
+2024-09-27 03:48:49,224 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:48:49,224 FILE: Epoch/DATA4/D4SAI_S02_NF2S8ACH-epo.fif
+2024-09-27 03:48:49,224 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:48:49,224 MODELO DE CLASIFICACION: ANN
+2024-09-27 03:48:49,395 X: (160, 2)
+2024-09-27 03:48:49,398 y: (160,)
+2024-09-27 03:53:08,638 Mean Accuracy: 0.619
+2024-09-27 03:53:08,638 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 03:53:08,663 Tiempo de ejecucion: 259.440
+2024-09-27 03:53:08,672 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:53:08,672 FILE: Epoch/DATA4/D4SAI_S01_NF2S8ACH-epo.fif
+2024-09-27 03:53:08,673 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:53:08,673 MODELO DE CLASIFICACION: ANN
+2024-09-27 03:53:08,830 X: (160, 2)
+2024-09-27 03:53:08,831 y: (160,)
+2024-09-27 03:56:38,427 Mean Accuracy: 0.511
+2024-09-27 03:56:38,427 Config: {'ANN__activation': 'relu', 'ANN__alpha': 0.001, 'ANN__hidden_layer_sizes': (100, 50), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 03:56:38,451 Tiempo de ejecucion: 209.779
+2024-09-27 03:56:38,460 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:56:38,460 FILE: Epoch/DATA4/D4SAI_S03_FI4S8ACH-epo.fif
+2024-09-27 03:56:38,460 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:56:38,460 MODELO DE CLASIFICACION: ANN
+2024-09-27 03:56:38,777 X: (160, 2)
+2024-09-27 03:56:38,778 y: (160,)
+2024-09-27 03:59:37,638 Mean Accuracy: 0.548
+2024-09-27 03:59:37,639 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 03:59:37,665 Tiempo de ejecucion: 179.207
+2024-09-27 03:59:37,675 --------------------------------------------------------------------------------------------------------
+2024-09-27 03:59:37,675 FILE: Epoch/DATA4/D4SAI_S01_FI4S8ACH-epo.fif
+2024-09-27 03:59:37,675 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 03:59:37,675 MODELO DE CLASIFICACION: ANN
+2024-09-27 03:59:37,912 X: (160, 2)
+2024-09-27 03:59:37,913 y: (160,)
+2024-09-27 04:02:51,572 Mean Accuracy: 0.521
+2024-09-27 04:02:51,572 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (50, 50), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 04:02:51,598 Tiempo de ejecucion: 193.924
+2024-09-27 04:02:51,608 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:02:51,608 FILE: Epoch/DATA4/D4SAI_S02_FI4S8ACH-epo.fif
+2024-09-27 04:02:51,608 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 04:02:51,609 MODELO DE CLASIFICACION: ANN
+2024-09-27 04:02:51,898 X: (160, 2)
+2024-09-27 04:02:51,903 y: (160,)
+2024-09-27 04:06:06,174 Mean Accuracy: 0.549
+2024-09-27 04:06:06,174 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'sgd'}
+2024-09-27 04:06:06,201 Tiempo de ejecucion: 194.593
+2024-09-27 04:06:06,211 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:06:06,211 FILE: Epoch/DATA4/D4SBI_S02_NF2S8ACH-epo.fif
+2024-09-27 04:06:06,211 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 04:06:06,212 MODELO DE CLASIFICACION: ANN
+2024-09-27 04:06:06,381 X: (160, 2)
+2024-09-27 04:06:06,382 y: (160,)
+2024-09-27 04:12:07,777 Mean Accuracy: 0.611
+2024-09-27 04:12:07,777 Config: {'ANN__activation': 'relu', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100, 50), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 04:12:07,803 Tiempo de ejecucion: 361.592
+2024-09-27 04:12:07,813 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:12:07,813 FILE: Epoch/DATA4/D4SAI_S02_NF4S8ACH-epo.fif
+2024-09-27 04:12:07,813 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 04:12:07,813 MODELO DE CLASIFICACION: ANN
+2024-09-27 04:12:08,104 X: (160, 2)
+2024-09-27 04:12:08,106 y: (160,)
+2024-09-27 04:16:23,231 Mean Accuracy: 0.506
+2024-09-27 04:16:23,231 Config: {'ANN__activation': 'relu', 'ANN__alpha': 0.001, 'ANN__hidden_layer_sizes': (50, 50), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 04:16:23,257 Tiempo de ejecucion: 255.445
+2024-09-27 04:16:23,267 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:16:23,267 FILE: Epoch/DATA4/D4SAI_S01_NF4S8ACH-epo.fif
+2024-09-27 04:16:23,267 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 04:16:23,267 MODELO DE CLASIFICACION: ANN
+2024-09-27 04:16:23,525 X: (160, 2)
+2024-09-27 04:16:23,526 y: (160,)
+2024-09-27 04:19:29,797 Mean Accuracy: 0.532
+2024-09-27 04:19:29,797 Config: {'ANN__activation': 'relu', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100,), 'ANN__learning_rate': 'adaptive', 'ANN__max_iter': 200, 'ANN__solver': 'sgd'}
+2024-09-27 04:19:29,822 Tiempo de ejecucion: 186.556
+2024-09-27 04:19:29,840 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:19:29,840 FILE: Epoch/DATA4/D4SAI_S02_FI2S8ACH-epo.fif
+2024-09-27 04:19:29,840 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 04:19:29,840 MODELO DE CLASIFICACION: ANN
+2024-09-27 04:19:29,956 X: (160, 2)
+2024-09-27 04:19:29,956 y: (160,)
+2024-09-27 04:22:53,535 Mean Accuracy: 0.585
+2024-09-27 04:22:53,535 Config: {'ANN__activation': 'relu', 'ANN__alpha': 0.001, 'ANN__hidden_layer_sizes': (50, 50), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 04:22:53,561 Tiempo de ejecucion: 203.730
+2024-09-27 04:22:53,571 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:22:53,571 FILE: Epoch/DATA4/D4SBI_S02_FI4S8ACH-epo.fif
+2024-09-27 04:22:53,572 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 04:22:53,572 MODELO DE CLASIFICACION: ANN
+2024-09-27 04:22:53,856 X: (160, 2)
+2024-09-27 04:22:53,856 y: (160,)
+2024-09-27 04:25:59,110 Mean Accuracy: 0.559
+2024-09-27 04:25:59,110 Config: {'ANN__activation': 'relu', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (50, 50), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 04:25:59,136 Tiempo de ejecucion: 185.565
+2024-09-27 04:25:59,146 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:25:59,146 FILE: Epoch/DATA4/D4SAI_S03_FI2S8ACH-epo.fif
+2024-09-27 04:25:59,146 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 04:25:59,146 MODELO DE CLASIFICACION: ANN
+2024-09-27 04:25:59,372 X: (160, 2)
+2024-09-27 04:25:59,373 y: (160,)
+2024-09-27 04:30:55,948 Mean Accuracy: 0.655
+2024-09-27 04:30:55,950 Config: {'ANN__activation': 'relu', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (50, 50), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 04:30:55,975 Tiempo de ejecucion: 296.830
+2024-09-27 04:30:55,988 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:30:55,988 FILE: Epoch/DATA4/D4SAI_S03_NF4S8ACH-epo.fif
+2024-09-27 04:30:55,988 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-27 04:30:55,988 MODELO DE CLASIFICACION: ANN
+2024-09-27 04:30:56,215 X: (160, 2)
+2024-09-27 04:30:56,215 y: (160,)
+2024-09-27 04:34:53,688 Mean Accuracy: 0.560
+2024-09-27 04:34:53,689 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 04:34:53,714 Tiempo de ejecucion: 237.727
+2024-09-27 04:34:53,843 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:34:53,843 FILE: Epoch/DATA4/D4SBI_S02_FI2S8ACH-epo.fif
+2024-09-27 04:34:53,843 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:34:53,843 MODELO DE CLASIFICACION: LDA
+2024-09-27 04:34:56,381 X: (160, 34)
+2024-09-27 04:34:56,387 y: (160,)
+2024-09-27 04:35:14,173 Mean Accuracy: 0.649
+2024-09-27 04:35:14,174 Config: {'LDA__n_components': None, 'LDA__shrinkage': 'auto', 'LDA__solver': 'lsqr'}
+2024-09-27 04:35:14,186 Tiempo de ejecucion: 20.343
+2024-09-27 04:35:14,191 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:35:14,191 FILE: Epoch/DATA4/D4SAI_S01_FI2S8ACH-epo.fif
+2024-09-27 04:35:14,191 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:35:14,191 MODELO DE CLASIFICACION: LDA
+2024-09-27 04:35:17,025 X: (160, 34)
+2024-09-27 04:35:17,025 y: (160,)
+2024-09-27 04:35:34,784 Mean Accuracy: 0.760
+2024-09-27 04:35:34,784 Config: {'LDA__n_components': None, 'LDA__shrinkage': 'auto', 'LDA__solver': 'lsqr'}
+2024-09-27 04:35:34,797 Tiempo de ejecucion: 20.606
+2024-09-27 04:35:34,802 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:35:34,802 FILE: Epoch/DATA4/D4SAI_S03_NF2S8ACH-epo.fif
+2024-09-27 04:35:34,802 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:35:34,802 MODELO DE CLASIFICACION: LDA
+2024-09-27 04:35:37,329 X: (160, 34)
+2024-09-27 04:35:37,329 y: (160,)
+2024-09-27 04:35:55,159 Mean Accuracy: 0.621
+2024-09-27 04:35:55,159 Config: {'LDA__n_components': None, 'LDA__solver': 'svd', 'LDA__store_covariance': True, 'LDA__tol': 1e-05}
+2024-09-27 04:35:55,171 Tiempo de ejecucion: 20.369
+2024-09-27 04:35:55,176 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:35:55,176 FILE: Epoch/DATA4/D4SBI_S02_NF4S8ACH-epo.fif
+2024-09-27 04:35:55,176 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:35:55,176 MODELO DE CLASIFICACION: LDA
+2024-09-27 04:35:59,142 X: (160, 34)
+2024-09-27 04:35:59,144 y: (160,)
+2024-09-27 04:36:16,997 Mean Accuracy: 0.652
+2024-09-27 04:36:16,997 Config: {'LDA__n_components': None, 'LDA__shrinkage': 'auto', 'LDA__solver': 'lsqr'}
+2024-09-27 04:36:17,011 Tiempo de ejecucion: 21.836
+2024-09-27 04:36:17,016 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:36:17,016 FILE: Epoch/DATA4/D4SAI_S02_NF2S8ACH-epo.fif
+2024-09-27 04:36:17,016 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:36:17,017 MODELO DE CLASIFICACION: LDA
+2024-09-27 04:36:19,631 X: (160, 34)
+2024-09-27 04:36:19,637 y: (160,)
+2024-09-27 04:36:37,387 Mean Accuracy: 0.744
+2024-09-27 04:36:37,387 Config: {'LDA__n_components': None, 'LDA__shrinkage': 'auto', 'LDA__solver': 'lsqr'}
+2024-09-27 04:36:37,400 Tiempo de ejecucion: 20.383
+2024-09-27 04:36:37,405 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:36:37,405 FILE: Epoch/DATA4/D4SAI_S01_NF2S8ACH-epo.fif
+2024-09-27 04:36:37,405 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:36:37,405 MODELO DE CLASIFICACION: LDA
+2024-09-27 04:36:39,901 X: (160, 34)
+2024-09-27 04:36:39,901 y: (160,)
+2024-09-27 04:36:57,731 Mean Accuracy: 0.626
+2024-09-27 04:36:57,732 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.1, 'LDA__solver': 'lsqr'}
+2024-09-27 04:36:57,743 Tiempo de ejecucion: 20.339
+2024-09-27 04:36:57,749 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:36:57,749 FILE: Epoch/DATA4/D4SAI_S03_FI4S8ACH-epo.fif
+2024-09-27 04:36:57,749 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:36:57,749 MODELO DE CLASIFICACION: LDA
+2024-09-27 04:37:01,591 X: (160, 34)
+2024-09-27 04:37:01,591 y: (160,)
+2024-09-27 04:37:19,435 Mean Accuracy: 0.659
+2024-09-27 04:37:19,435 Config: {'LDA__n_components': None, 'LDA__shrinkage': 'auto', 'LDA__solver': 'lsqr'}
+2024-09-27 04:37:19,447 Tiempo de ejecucion: 21.699
+2024-09-27 04:37:19,452 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:37:19,453 FILE: Epoch/DATA4/D4SAI_S01_FI4S8ACH-epo.fif
+2024-09-27 04:37:19,453 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:37:19,453 MODELO DE CLASIFICACION: LDA
+2024-09-27 04:37:23,288 X: (160, 34)
+2024-09-27 04:37:23,289 y: (160,)
+2024-09-27 04:37:41,121 Mean Accuracy: 0.613
+2024-09-27 04:37:41,122 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.2, 'LDA__solver': 'lsqr'}
+2024-09-27 04:37:41,133 Tiempo de ejecucion: 21.681
+2024-09-27 04:37:41,138 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:37:41,139 FILE: Epoch/DATA4/D4SAI_S02_FI4S8ACH-epo.fif
+2024-09-27 04:37:41,139 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:37:41,139 MODELO DE CLASIFICACION: LDA
+2024-09-27 04:37:45,403 X: (160, 34)
+2024-09-27 04:37:45,404 y: (160,)
+2024-09-27 04:38:03,390 Mean Accuracy: 0.755
+2024-09-27 04:38:03,390 Config: {'LDA__n_components': None, 'LDA__shrinkage': 'auto', 'LDA__solver': 'lsqr'}
+2024-09-27 04:38:03,402 Tiempo de ejecucion: 22.264
+2024-09-27 04:38:03,408 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:38:03,409 FILE: Epoch/DATA4/D4SBI_S02_NF2S8ACH-epo.fif
+2024-09-27 04:38:03,409 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:38:03,409 MODELO DE CLASIFICACION: LDA
+2024-09-27 04:38:06,079 X: (160, 34)
+2024-09-27 04:38:06,080 y: (160,)
+2024-09-27 04:38:23,887 Mean Accuracy: 0.619
+2024-09-27 04:38:23,887 Config: {'LDA__n_components': None, 'LDA__solver': 'svd', 'LDA__store_covariance': True, 'LDA__tol': 0.1}
+2024-09-27 04:38:23,900 Tiempo de ejecucion: 20.492
+2024-09-27 04:38:23,906 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:38:23,906 FILE: Epoch/DATA4/D4SAI_S02_NF4S8ACH-epo.fif
+2024-09-27 04:38:23,906 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:38:23,906 MODELO DE CLASIFICACION: LDA
+2024-09-27 04:38:28,101 X: (160, 34)
+2024-09-27 04:38:28,104 y: (160,)
+2024-09-27 04:38:45,902 Mean Accuracy: 0.674
+2024-09-27 04:38:45,902 Config: {'LDA__n_components': None, 'LDA__shrinkage': 'auto', 'LDA__solver': 'lsqr'}
+2024-09-27 04:38:45,915 Tiempo de ejecucion: 22.009
+2024-09-27 04:38:45,920 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:38:45,920 FILE: Epoch/DATA4/D4SAI_S01_NF4S8ACH-epo.fif
+2024-09-27 04:38:45,920 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:38:45,920 MODELO DE CLASIFICACION: LDA
+2024-09-27 04:38:50,353 X: (160, 34)
+2024-09-27 04:38:50,353 y: (160,)
+2024-09-27 04:39:08,545 Mean Accuracy: 0.623
+2024-09-27 04:39:08,545 Config: {'LDA__n_components': None, 'LDA__solver': 'svd', 'LDA__store_covariance': True, 'LDA__tol': 0.1}
+2024-09-27 04:39:08,557 Tiempo de ejecucion: 22.637
+2024-09-27 04:39:08,563 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:39:08,563 FILE: Epoch/DATA4/D4SAI_S02_FI2S8ACH-epo.fif
+2024-09-27 04:39:08,563 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:39:08,563 MODELO DE CLASIFICACION: LDA
+2024-09-27 04:39:11,139 X: (160, 34)
+2024-09-27 04:39:11,140 y: (160,)
+2024-09-27 04:39:28,917 Mean Accuracy: 0.689
+2024-09-27 04:39:28,917 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.5, 'LDA__solver': 'lsqr'}
+2024-09-27 04:39:28,929 Tiempo de ejecucion: 20.367
+2024-09-27 04:39:28,934 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:39:28,934 FILE: Epoch/DATA4/D4SBI_S02_FI4S8ACH-epo.fif
+2024-09-27 04:39:28,934 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:39:28,934 MODELO DE CLASIFICACION: LDA
+2024-09-27 04:39:32,810 X: (160, 34)
+2024-09-27 04:39:32,810 y: (160,)
+2024-09-27 04:39:50,687 Mean Accuracy: 0.798
+2024-09-27 04:39:50,687 Config: {'LDA__n_components': None, 'LDA__shrinkage': 'auto', 'LDA__solver': 'lsqr'}
+2024-09-27 04:39:50,700 Tiempo de ejecucion: 21.766
+2024-09-27 04:39:50,705 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:39:50,705 FILE: Epoch/DATA4/D4SAI_S03_FI2S8ACH-epo.fif
+2024-09-27 04:39:50,706 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:39:50,706 MODELO DE CLASIFICACION: LDA
+2024-09-27 04:39:53,296 X: (160, 34)
+2024-09-27 04:39:53,297 y: (160,)
+2024-09-27 04:40:11,090 Mean Accuracy: 0.734
+2024-09-27 04:40:11,090 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.2, 'LDA__solver': 'lsqr'}
+2024-09-27 04:40:11,103 Tiempo de ejecucion: 20.398
+2024-09-27 04:40:11,108 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:40:11,108 FILE: Epoch/DATA4/D4SAI_S03_NF4S8ACH-epo.fif
+2024-09-27 04:40:11,108 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:40:11,108 MODELO DE CLASIFICACION: LDA
+2024-09-27 04:40:15,145 X: (160, 34)
+2024-09-27 04:40:15,146 y: (160,)
+2024-09-27 04:40:32,954 Mean Accuracy: 0.631
+2024-09-27 04:40:32,954 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.3, 'LDA__solver': 'lsqr'}
+2024-09-27 04:40:32,966 Tiempo de ejecucion: 21.858
+2024-09-27 04:40:33,080 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:40:33,080 FILE: Epoch/DATA4/D4SBI_S02_FI2S8ACH-epo.fif
+2024-09-27 04:40:33,081 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:40:33,081 MODELO DE CLASIFICACION: SVM
+2024-09-27 04:40:35,919 X: (160, 34)
+2024-09-27 04:40:35,920 y: (160,)
+2024-09-27 04:42:02,359 Mean Accuracy: 0.633
+2024-09-27 04:42:02,359 Config: {'SVM__C': 0.1, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 04:42:02,369 Tiempo de ejecucion: 89.289
+2024-09-27 04:42:02,374 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:42:02,375 FILE: Epoch/DATA4/D4SAI_S01_FI2S8ACH-epo.fif
+2024-09-27 04:42:02,375 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:42:02,375 MODELO DE CLASIFICACION: SVM
+2024-09-27 04:42:05,135 X: (160, 34)
+2024-09-27 04:42:05,135 y: (160,)
+2024-09-27 04:43:21,006 Mean Accuracy: 0.735
+2024-09-27 04:43:21,006 Config: {'SVM__C': 1, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 04:43:21,016 Tiempo de ejecucion: 78.642
+2024-09-27 04:43:21,021 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:43:21,022 FILE: Epoch/DATA4/D4SAI_S03_NF2S8ACH-epo.fif
+2024-09-27 04:43:21,022 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:43:21,022 MODELO DE CLASIFICACION: SVM
+2024-09-27 04:43:23,623 X: (160, 34)
+2024-09-27 04:43:23,624 y: (160,)
+2024-09-27 04:45:29,489 Mean Accuracy: 0.627
+2024-09-27 04:45:29,490 Config: {'SVM__C': 100, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'rbf'}
+2024-09-27 04:45:29,502 Tiempo de ejecucion: 128.481
+2024-09-27 04:45:29,507 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:45:29,507 FILE: Epoch/DATA4/D4SBI_S02_NF4S8ACH-epo.fif
+2024-09-27 04:45:29,507 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:45:29,507 MODELO DE CLASIFICACION: SVM
+2024-09-27 04:45:33,690 X: (160, 34)
+2024-09-27 04:45:33,691 y: (160,)
+2024-09-27 04:47:08,642 Mean Accuracy: 0.651
+2024-09-27 04:47:08,642 Config: {'SVM__C': 0.1, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 04:47:08,653 Tiempo de ejecucion: 99.147
+2024-09-27 04:47:08,658 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:47:08,659 FILE: Epoch/DATA4/D4SAI_S02_NF2S8ACH-epo.fif
+2024-09-27 04:47:08,659 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:47:08,659 MODELO DE CLASIFICACION: SVM
+2024-09-27 04:47:11,127 X: (160, 34)
+2024-09-27 04:47:11,133 y: (160,)
+2024-09-27 04:48:54,103 Mean Accuracy: 0.745
+2024-09-27 04:48:54,103 Config: {'SVM__C': 0.1, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 04:48:54,117 Tiempo de ejecucion: 105.459
+2024-09-27 04:48:54,122 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:48:54,122 FILE: Epoch/DATA4/D4SAI_S01_NF2S8ACH-epo.fif
+2024-09-27 04:48:54,122 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:48:54,122 MODELO DE CLASIFICACION: SVM
+2024-09-27 04:48:56,858 X: (160, 34)
+2024-09-27 04:48:56,858 y: (160,)
+2024-09-27 04:51:58,557 Mean Accuracy: 0.621
+2024-09-27 04:51:58,557 Config: {'SVM__C': 0.1, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 04:51:58,568 Tiempo de ejecucion: 184.446
+2024-09-27 04:51:58,573 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:51:58,573 FILE: Epoch/DATA4/D4SAI_S03_FI4S8ACH-epo.fif
+2024-09-27 04:51:58,573 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:51:58,573 MODELO DE CLASIFICACION: SVM
+2024-09-27 04:52:02,444 X: (160, 34)
+2024-09-27 04:52:02,444 y: (160,)
+2024-09-27 04:52:49,746 Mean Accuracy: 0.686
+2024-09-27 04:52:49,746 Config: {'SVM__C': 100, 'SVM__class_weight': None, 'SVM__gamma': 0.1, 'SVM__kernel': 'rbf'}
+2024-09-27 04:52:49,758 Tiempo de ejecucion: 51.185
+2024-09-27 04:52:49,763 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:52:49,764 FILE: Epoch/DATA4/D4SAI_S01_FI4S8ACH-epo.fif
+2024-09-27 04:52:49,764 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:52:49,764 MODELO DE CLASIFICACION: SVM
+2024-09-27 04:52:53,985 X: (160, 34)
+2024-09-27 04:52:53,985 y: (160,)
+2024-09-27 04:54:41,191 Mean Accuracy: 0.600
+2024-09-27 04:54:41,191 Config: {'SVM__C': 0.1, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 04:54:41,201 Tiempo de ejecucion: 111.438
+2024-09-27 04:54:41,206 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:54:41,206 FILE: Epoch/DATA4/D4SAI_S02_FI4S8ACH-epo.fif
+2024-09-27 04:54:41,206 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:54:41,206 MODELO DE CLASIFICACION: SVM
+2024-09-27 04:54:45,042 X: (160, 34)
+2024-09-27 04:54:45,042 y: (160,)
+2024-09-27 04:55:32,916 Mean Accuracy: 0.734
+2024-09-27 04:55:32,916 Config: {'SVM__C': 10, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'rbf'}
+2024-09-27 04:55:32,926 Tiempo de ejecucion: 51.720
+2024-09-27 04:55:32,931 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:55:32,931 FILE: Epoch/DATA4/D4SBI_S02_NF2S8ACH-epo.fif
+2024-09-27 04:55:32,932 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:55:32,932 MODELO DE CLASIFICACION: SVM
+2024-09-27 04:55:35,401 X: (160, 34)
+2024-09-27 04:55:35,401 y: (160,)
+2024-09-27 04:58:38,813 Mean Accuracy: 0.593
+2024-09-27 04:58:38,813 Config: {'SVM__C': 10, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 04:58:38,825 Tiempo de ejecucion: 185.894
+2024-09-27 04:58:38,830 --------------------------------------------------------------------------------------------------------
+2024-09-27 04:58:38,830 FILE: Epoch/DATA4/D4SAI_S02_NF4S8ACH-epo.fif
+2024-09-27 04:58:38,831 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 04:58:38,831 MODELO DE CLASIFICACION: SVM
+2024-09-27 04:58:43,070 X: (160, 34)
+2024-09-27 04:58:43,077 y: (160,)
+2024-09-27 05:00:43,778 Mean Accuracy: 0.663
+2024-09-27 05:00:43,778 Config: {'SVM__C': 1, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 05:00:43,790 Tiempo de ejecucion: 124.960
+2024-09-27 05:00:43,796 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:00:43,796 FILE: Epoch/DATA4/D4SAI_S01_NF4S8ACH-epo.fif
+2024-09-27 05:00:43,796 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:00:43,796 MODELO DE CLASIFICACION: SVM
+2024-09-27 05:00:47,727 X: (160, 34)
+2024-09-27 05:00:47,727 y: (160,)
+2024-09-27 05:03:33,015 Mean Accuracy: 0.629
+2024-09-27 05:03:33,015 Config: {'SVM__C': 1, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 05:03:33,025 Tiempo de ejecucion: 169.230
+2024-09-27 05:03:33,030 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:03:33,031 FILE: Epoch/DATA4/D4SAI_S02_FI2S8ACH-epo.fif
+2024-09-27 05:03:33,031 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:03:33,031 MODELO DE CLASIFICACION: SVM
+2024-09-27 05:03:35,382 X: (160, 34)
+2024-09-27 05:03:35,382 y: (160,)
+2024-09-27 05:04:57,026 Mean Accuracy: 0.669
+2024-09-27 05:04:57,026 Config: {'SVM__C': 1, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'rbf'}
+2024-09-27 05:04:57,037 Tiempo de ejecucion: 84.007
+2024-09-27 05:04:57,041 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:04:57,042 FILE: Epoch/DATA4/D4SBI_S02_FI4S8ACH-epo.fif
+2024-09-27 05:04:57,042 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:04:57,042 MODELO DE CLASIFICACION: SVM
+2024-09-27 05:05:00,852 X: (160, 34)
+2024-09-27 05:05:00,852 y: (160,)
+2024-09-27 05:05:28,827 Mean Accuracy: 0.782
+2024-09-27 05:05:28,827 Config: {'SVM__C': 0.1, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 05:05:28,840 Tiempo de ejecucion: 31.799
+2024-09-27 05:05:28,845 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:05:28,846 FILE: Epoch/DATA4/D4SAI_S03_FI2S8ACH-epo.fif
+2024-09-27 05:05:28,846 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:05:28,846 MODELO DE CLASIFICACION: SVM
+2024-09-27 05:05:31,857 X: (160, 34)
+2024-09-27 05:05:31,857 y: (160,)
+2024-09-27 05:06:24,594 Mean Accuracy: 0.744
+2024-09-27 05:06:24,595 Config: {'SVM__C': 0.1, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 05:06:24,606 Tiempo de ejecucion: 55.761
+2024-09-27 05:06:24,611 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:06:24,611 FILE: Epoch/DATA4/D4SAI_S03_NF4S8ACH-epo.fif
+2024-09-27 05:06:24,611 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:06:24,611 MODELO DE CLASIFICACION: SVM
+2024-09-27 05:06:28,193 X: (160, 34)
+2024-09-27 05:06:28,193 y: (160,)
+2024-09-27 05:08:03,918 Mean Accuracy: 0.611
+2024-09-27 05:08:03,919 Config: {'SVM__C': 100, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'rbf'}
+2024-09-27 05:08:03,931 Tiempo de ejecucion: 99.320
+2024-09-27 05:08:04,167 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:08:04,169 FILE: Epoch/DATA4/D4SBI_S02_FI2S8ACH-epo.fif
+2024-09-27 05:08:04,169 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:08:04,169 MODELO DE CLASIFICACION: KNN
+2024-09-27 05:08:06,703 X: (160, 34)
+2024-09-27 05:08:06,703 y: (160,)
+2024-09-27 05:08:23,542 Mean Accuracy: 0.591
+2024-09-27 05:08:23,542 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 12, 'KNN__weights': 'uniform'}
+2024-09-27 05:08:23,553 Tiempo de ejecucion: 19.387
+2024-09-27 05:08:23,559 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:08:23,559 FILE: Epoch/DATA4/D4SAI_S01_FI2S8ACH-epo.fif
+2024-09-27 05:08:23,559 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:08:23,559 MODELO DE CLASIFICACION: KNN
+2024-09-27 05:08:26,203 X: (160, 34)
+2024-09-27 05:08:26,203 y: (160,)
+2024-09-27 05:08:42,908 Mean Accuracy: 0.602
+2024-09-27 05:08:42,908 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'manhattan', 'KNN__n_neighbors': 3, 'KNN__weights': 'uniform'}
+2024-09-27 05:08:42,920 Tiempo de ejecucion: 19.362
+2024-09-27 05:08:42,925 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:08:42,925 FILE: Epoch/DATA4/D4SAI_S03_NF2S8ACH-epo.fif
+2024-09-27 05:08:42,925 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:08:42,925 MODELO DE CLASIFICACION: KNN
+2024-09-27 05:08:45,722 X: (160, 34)
+2024-09-27 05:08:45,722 y: (160,)
+2024-09-27 05:09:02,819 Mean Accuracy: 0.613
+2024-09-27 05:09:02,819 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 12, 'KNN__weights': 'distance'}
+2024-09-27 05:09:02,831 Tiempo de ejecucion: 19.906
+2024-09-27 05:09:02,842 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:09:02,842 FILE: Epoch/DATA4/D4SBI_S02_NF4S8ACH-epo.fif
+2024-09-27 05:09:02,843 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:09:02,843 MODELO DE CLASIFICACION: KNN
+2024-09-27 05:09:07,298 X: (160, 34)
+2024-09-27 05:09:07,299 y: (160,)
+2024-09-27 05:09:24,072 Mean Accuracy: 0.545
+2024-09-27 05:09:24,072 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'manhattan', 'KNN__n_neighbors': 7, 'KNN__weights': 'distance'}
+2024-09-27 05:09:24,084 Tiempo de ejecucion: 21.242
+2024-09-27 05:09:24,089 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:09:24,090 FILE: Epoch/DATA4/D4SAI_S02_NF2S8ACH-epo.fif
+2024-09-27 05:09:24,090 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:09:24,090 MODELO DE CLASIFICACION: KNN
+2024-09-27 05:09:26,669 X: (160, 34)
+2024-09-27 05:09:26,670 y: (160,)
+2024-09-27 05:09:43,477 Mean Accuracy: 0.629
+2024-09-27 05:09:43,477 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 5, 'KNN__weights': 'uniform'}
+2024-09-27 05:09:43,488 Tiempo de ejecucion: 19.399
+2024-09-27 05:09:43,494 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:09:43,494 FILE: Epoch/DATA4/D4SAI_S01_NF2S8ACH-epo.fif
+2024-09-27 05:09:43,494 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:09:43,494 MODELO DE CLASIFICACION: KNN
+2024-09-27 05:09:46,221 X: (160, 34)
+2024-09-27 05:09:46,221 y: (160,)
+2024-09-27 05:10:02,876 Mean Accuracy: 0.591
+2024-09-27 05:10:02,876 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 12, 'KNN__weights': 'uniform'}
+2024-09-27 05:10:02,888 Tiempo de ejecucion: 19.394
+2024-09-27 05:10:02,893 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:10:02,893 FILE: Epoch/DATA4/D4SAI_S03_FI4S8ACH-epo.fif
+2024-09-27 05:10:02,893 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:10:02,894 MODELO DE CLASIFICACION: KNN
+2024-09-27 05:10:06,731 X: (160, 34)
+2024-09-27 05:10:06,731 y: (160,)
+2024-09-27 05:10:23,469 Mean Accuracy: 0.644
+2024-09-27 05:10:23,469 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'manhattan', 'KNN__n_neighbors': 5, 'KNN__weights': 'distance'}
+2024-09-27 05:10:23,482 Tiempo de ejecucion: 20.589
+2024-09-27 05:10:23,488 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:10:23,488 FILE: Epoch/DATA4/D4SAI_S01_FI4S8ACH-epo.fif
+2024-09-27 05:10:23,488 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:10:23,488 MODELO DE CLASIFICACION: KNN
+2024-09-27 05:10:27,427 X: (160, 34)
+2024-09-27 05:10:27,427 y: (160,)
+2024-09-27 05:10:44,155 Mean Accuracy: 0.512
+2024-09-27 05:10:44,155 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 12, 'KNN__weights': 'uniform'}
+2024-09-27 05:10:44,167 Tiempo de ejecucion: 20.680
+2024-09-27 05:10:44,172 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:10:44,172 FILE: Epoch/DATA4/D4SAI_S02_FI4S8ACH-epo.fif
+2024-09-27 05:10:44,172 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:10:44,172 MODELO DE CLASIFICACION: KNN
+2024-09-27 05:10:48,347 X: (160, 34)
+2024-09-27 05:10:48,348 y: (160,)
+2024-09-27 05:11:05,154 Mean Accuracy: 0.621
+2024-09-27 05:11:05,155 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 5, 'KNN__weights': 'uniform'}
+2024-09-27 05:11:05,166 Tiempo de ejecucion: 20.994
+2024-09-27 05:11:05,171 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:11:05,171 FILE: Epoch/DATA4/D4SBI_S02_NF2S8ACH-epo.fif
+2024-09-27 05:11:05,171 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:11:05,172 MODELO DE CLASIFICACION: KNN
+2024-09-27 05:11:07,706 X: (160, 34)
+2024-09-27 05:11:07,706 y: (160,)
+2024-09-27 05:11:24,598 Mean Accuracy: 0.567
+2024-09-27 05:11:24,598 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 7, 'KNN__weights': 'distance'}
+2024-09-27 05:11:24,610 Tiempo de ejecucion: 19.439
+2024-09-27 05:11:24,616 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:11:24,616 FILE: Epoch/DATA4/D4SAI_S02_NF4S8ACH-epo.fif
+2024-09-27 05:11:24,616 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:11:24,616 MODELO DE CLASIFICACION: KNN
+2024-09-27 05:11:28,883 X: (160, 34)
+2024-09-27 05:11:28,884 y: (160,)
+2024-09-27 05:11:45,669 Mean Accuracy: 0.559
+2024-09-27 05:11:45,669 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 3, 'KNN__weights': 'uniform'}
+2024-09-27 05:11:45,681 Tiempo de ejecucion: 21.065
+2024-09-27 05:11:45,686 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:11:45,686 FILE: Epoch/DATA4/D4SAI_S01_NF4S8ACH-epo.fif
+2024-09-27 05:11:45,687 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:11:45,687 MODELO DE CLASIFICACION: KNN
+2024-09-27 05:11:49,709 X: (160, 34)
+2024-09-27 05:11:49,710 y: (160,)
+2024-09-27 05:12:06,439 Mean Accuracy: 0.542
+2024-09-27 05:12:06,439 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'manhattan', 'KNN__n_neighbors': 3, 'KNN__weights': 'uniform'}
+2024-09-27 05:12:06,451 Tiempo de ejecucion: 20.765
+2024-09-27 05:12:06,456 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:12:06,457 FILE: Epoch/DATA4/D4SAI_S02_FI2S8ACH-epo.fif
+2024-09-27 05:12:06,457 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:12:06,457 MODELO DE CLASIFICACION: KNN
+2024-09-27 05:12:09,083 X: (160, 34)
+2024-09-27 05:12:09,083 y: (160,)
+2024-09-27 05:12:25,880 Mean Accuracy: 0.615
+2024-09-27 05:12:25,880 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'manhattan', 'KNN__n_neighbors': 12, 'KNN__weights': 'distance'}
+2024-09-27 05:12:25,892 Tiempo de ejecucion: 19.436
+2024-09-27 05:12:25,897 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:12:25,897 FILE: Epoch/DATA4/D4SBI_S02_FI4S8ACH-epo.fif
+2024-09-27 05:12:25,897 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:12:25,898 MODELO DE CLASIFICACION: KNN
+2024-09-27 05:12:29,488 X: (160, 34)
+2024-09-27 05:12:29,490 y: (160,)
+2024-09-27 05:12:46,287 Mean Accuracy: 0.691
+2024-09-27 05:12:46,287 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 9, 'KNN__weights': 'distance'}
+2024-09-27 05:12:46,299 Tiempo de ejecucion: 20.402
+2024-09-27 05:12:46,305 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:12:46,305 FILE: Epoch/DATA4/D4SAI_S03_FI2S8ACH-epo.fif
+2024-09-27 05:12:46,305 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:12:46,306 MODELO DE CLASIFICACION: KNN
+2024-09-27 05:12:49,003 X: (160, 34)
+2024-09-27 05:12:49,003 y: (160,)
+2024-09-27 05:13:05,816 Mean Accuracy: 0.728
+2024-09-27 05:13:05,816 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'manhattan', 'KNN__n_neighbors': 3, 'KNN__weights': 'uniform'}
+2024-09-27 05:13:05,828 Tiempo de ejecucion: 19.523
+2024-09-27 05:13:05,837 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:13:05,837 FILE: Epoch/DATA4/D4SAI_S03_NF4S8ACH-epo.fif
+2024-09-27 05:13:05,837 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:13:05,837 MODELO DE CLASIFICACION: KNN
+2024-09-27 05:13:09,632 X: (160, 34)
+2024-09-27 05:13:09,633 y: (160,)
+2024-09-27 05:13:26,379 Mean Accuracy: 0.604
+2024-09-27 05:13:26,380 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'manhattan', 'KNN__n_neighbors': 12, 'KNN__weights': 'uniform'}
+2024-09-27 05:13:26,392 Tiempo de ejecucion: 20.556
+2024-09-27 05:13:26,545 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:13:26,546 FILE: Epoch/DATA4/D4SBI_S02_FI2S8ACH-epo.fif
+2024-09-27 05:13:26,546 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:13:26,546 MODELO DE CLASIFICACION: ANN
+2024-09-27 05:13:29,129 X: (160, 34)
+2024-09-27 05:13:29,129 y: (160,)
+2024-09-27 05:21:10,738 Mean Accuracy: 0.674
+2024-09-27 05:21:10,738 Config: {'ANN__activation': 'relu', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'sgd'}
+2024-09-27 05:21:10,764 Tiempo de ejecucion: 464.218
+2024-09-27 05:21:10,775 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:21:10,775 FILE: Epoch/DATA4/D4SAI_S01_FI2S8ACH-epo.fif
+2024-09-27 05:21:10,775 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:21:10,775 MODELO DE CLASIFICACION: ANN
+2024-09-27 05:21:13,668 X: (160, 34)
+2024-09-27 05:21:13,668 y: (160,)
+2024-09-27 05:29:29,087 Mean Accuracy: 0.738
+2024-09-27 05:29:29,087 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (50,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 05:29:29,113 Tiempo de ejecucion: 498.339
+2024-09-27 05:29:29,129 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:29:29,129 FILE: Epoch/DATA4/D4SAI_S03_NF2S8ACH-epo.fif
+2024-09-27 05:29:29,129 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:29:29,129 MODELO DE CLASIFICACION: ANN
+2024-09-27 05:29:31,688 X: (160, 34)
+2024-09-27 05:29:31,688 y: (160,)
+2024-09-27 05:37:48,531 Mean Accuracy: 0.644
+2024-09-27 05:37:48,532 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 05:37:48,557 Tiempo de ejecucion: 499.435
+2024-09-27 05:37:48,568 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:37:48,569 FILE: Epoch/DATA4/D4SBI_S02_NF4S8ACH-epo.fif
+2024-09-27 05:37:48,569 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:37:48,569 MODELO DE CLASIFICACION: ANN
+2024-09-27 05:37:52,640 X: (160, 34)
+2024-09-27 05:37:52,640 y: (160,)
+2024-09-27 05:46:08,603 Mean Accuracy: 0.660
+2024-09-27 05:46:08,604 Config: {'ANN__activation': 'relu', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 05:46:08,630 Tiempo de ejecucion: 500.063
+2024-09-27 05:46:08,642 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:46:08,642 FILE: Epoch/DATA4/D4SAI_S02_NF2S8ACH-epo.fif
+2024-09-27 05:46:08,642 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:46:08,642 MODELO DE CLASIFICACION: ANN
+2024-09-27 05:46:11,553 X: (160, 34)
+2024-09-27 05:46:11,560 y: (160,)
+2024-09-27 05:54:36,771 Mean Accuracy: 0.718
+2024-09-27 05:54:36,772 Config: {'ANN__activation': 'relu', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (50, 50), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 05:54:36,798 Tiempo de ejecucion: 508.157
+2024-09-27 05:54:36,809 --------------------------------------------------------------------------------------------------------
+2024-09-27 05:54:36,809 FILE: Epoch/DATA4/D4SAI_S01_NF2S8ACH-epo.fif
+2024-09-27 05:54:36,809 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 05:54:36,809 MODELO DE CLASIFICACION: ANN
+2024-09-27 05:54:39,516 X: (160, 34)
+2024-09-27 05:54:39,522 y: (160,)
+2024-09-27 06:02:52,921 Mean Accuracy: 0.617
+2024-09-27 06:02:52,922 Config: {'ANN__activation': 'relu', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'sgd'}
+2024-09-27 06:02:52,947 Tiempo de ejecucion: 496.139
+2024-09-27 06:02:52,959 --------------------------------------------------------------------------------------------------------
+2024-09-27 06:02:52,959 FILE: Epoch/DATA4/D4SAI_S03_FI4S8ACH-epo.fif
+2024-09-27 06:02:52,959 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 06:02:52,959 MODELO DE CLASIFICACION: ANN
+2024-09-27 06:02:57,352 X: (160, 34)
+2024-09-27 06:02:57,352 y: (160,)
+2024-09-27 06:10:00,494 Mean Accuracy: 0.669
+2024-09-27 06:10:00,495 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (50, 50), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 06:10:00,520 Tiempo de ejecucion: 427.562
+2024-09-27 06:10:00,531 --------------------------------------------------------------------------------------------------------
+2024-09-27 06:10:00,532 FILE: Epoch/DATA4/D4SAI_S01_FI4S8ACH-epo.fif
+2024-09-27 06:10:00,532 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 06:10:00,532 MODELO DE CLASIFICACION: ANN
+2024-09-27 06:10:04,480 X: (160, 34)
+2024-09-27 06:10:04,481 y: (160,)
+2024-09-27 06:17:51,426 Mean Accuracy: 0.606
+2024-09-27 06:17:51,426 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 06:17:51,451 Tiempo de ejecucion: 470.920
+2024-09-27 06:17:51,462 --------------------------------------------------------------------------------------------------------
+2024-09-27 06:17:51,462 FILE: Epoch/DATA4/D4SAI_S02_FI4S8ACH-epo.fif
+2024-09-27 06:17:51,462 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 06:17:51,462 MODELO DE CLASIFICACION: ANN
+2024-09-27 06:17:55,732 X: (160, 34)
+2024-09-27 06:17:55,733 y: (160,)
+2024-09-27 06:25:38,874 Mean Accuracy: 0.709
+2024-09-27 06:25:38,898 Config: {'ANN__activation': 'relu', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100, 50), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 06:25:38,924 Tiempo de ejecucion: 467.462
+2024-09-27 06:25:38,935 --------------------------------------------------------------------------------------------------------
+2024-09-27 06:25:38,935 FILE: Epoch/DATA4/D4SBI_S02_NF2S8ACH-epo.fif
+2024-09-27 06:25:38,936 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 06:25:38,936 MODELO DE CLASIFICACION: ANN
+2024-09-27 06:25:41,586 X: (160, 34)
+2024-09-27 06:25:41,587 y: (160,)
+2024-09-27 06:34:09,626 Mean Accuracy: 0.603
+2024-09-27 06:34:09,626 Config: {'ANN__activation': 'relu', 'ANN__alpha': 0.001, 'ANN__hidden_layer_sizes': (100,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 06:34:09,652 Tiempo de ejecucion: 510.718
+2024-09-27 06:34:09,663 --------------------------------------------------------------------------------------------------------
+2024-09-27 06:34:09,664 FILE: Epoch/DATA4/D4SAI_S02_NF4S8ACH-epo.fif
+2024-09-27 06:34:09,664 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 06:34:09,664 MODELO DE CLASIFICACION: ANN
+2024-09-27 06:34:13,965 X: (160, 34)
+2024-09-27 06:34:13,966 y: (160,)
+2024-09-27 06:42:18,043 Mean Accuracy: 0.665
+2024-09-27 06:42:18,043 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 06:42:18,069 Tiempo de ejecucion: 488.406
+2024-09-27 06:42:18,080 --------------------------------------------------------------------------------------------------------
+2024-09-27 06:42:18,080 FILE: Epoch/DATA4/D4SAI_S01_NF4S8ACH-epo.fif
+2024-09-27 06:42:18,080 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 06:42:18,080 MODELO DE CLASIFICACION: ANN
+2024-09-27 06:42:21,987 X: (160, 34)
+2024-09-27 06:42:21,987 y: (160,)
+2024-09-27 06:50:14,753 Mean Accuracy: 0.591
+2024-09-27 06:50:14,753 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (50,), 'ANN__learning_rate': 'adaptive', 'ANN__max_iter': 200, 'ANN__solver': 'sgd'}
+2024-09-27 06:50:14,780 Tiempo de ejecucion: 476.701
+2024-09-27 06:50:14,791 --------------------------------------------------------------------------------------------------------
+2024-09-27 06:50:14,792 FILE: Epoch/DATA4/D4SAI_S02_FI2S8ACH-epo.fif
+2024-09-27 06:50:14,792 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 06:50:14,792 MODELO DE CLASIFICACION: ANN
+2024-09-27 06:50:17,407 X: (160, 34)
+2024-09-27 06:50:17,407 y: (160,)
+2024-09-27 06:58:37,985 Mean Accuracy: 0.681
+2024-09-27 06:58:37,986 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (50,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 06:58:38,011 Tiempo de ejecucion: 503.220
+2024-09-27 06:58:38,022 --------------------------------------------------------------------------------------------------------
+2024-09-27 06:58:38,022 FILE: Epoch/DATA4/D4SBI_S02_FI4S8ACH-epo.fif
+2024-09-27 06:58:38,022 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 06:58:38,022 MODELO DE CLASIFICACION: ANN
+2024-09-27 06:58:42,064 X: (160, 34)
+2024-09-27 06:58:42,064 y: (160,)
+2024-09-27 07:06:27,373 Mean Accuracy: 0.782
+2024-09-27 07:06:27,373 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 07:06:27,399 Tiempo de ejecucion: 469.378
+2024-09-27 07:06:27,410 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:06:27,410 FILE: Epoch/DATA4/D4SAI_S03_FI2S8ACH-epo.fif
+2024-09-27 07:06:27,410 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 07:06:27,410 MODELO DE CLASIFICACION: ANN
+2024-09-27 07:06:30,036 X: (160, 34)
+2024-09-27 07:06:30,037 y: (160,)
+2024-09-27 07:14:53,280 Mean Accuracy: 0.747
+2024-09-27 07:14:53,282 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (50, 50), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'sgd'}
+2024-09-27 07:14:53,307 Tiempo de ejecucion: 505.898
+2024-09-27 07:14:53,319 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:14:53,319 FILE: Epoch/DATA4/D4SAI_S03_NF4S8ACH-epo.fif
+2024-09-27 07:14:53,319 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-27 07:14:53,319 MODELO DE CLASIFICACION: ANN
+2024-09-27 07:14:57,317 X: (160, 34)
+2024-09-27 07:14:57,317 y: (160,)
+2024-09-27 07:23:25,415 Mean Accuracy: 0.669
+2024-09-27 07:23:25,416 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (50,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'sgd'}
+2024-09-27 07:23:25,442 Tiempo de ejecucion: 512.124
+2024-09-27 07:23:25,759 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:23:25,761 FILE: Epoch/DATA4/D4SBI_S02_FI2S8ACH-epo.fif
+2024-09-27 07:23:25,761 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:23:25,761 MODELO DE CLASIFICACION: LDA
+2024-09-27 07:23:31,286 X: (160, 204)
+2024-09-27 07:23:31,287 y: (160,)
+2024-09-27 07:24:12,326 Mean Accuracy: 0.698
+2024-09-27 07:24:12,326 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.3, 'LDA__solver': 'lsqr'}
+2024-09-27 07:24:12,351 Tiempo de ejecucion: 46.593
+2024-09-27 07:24:12,361 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:24:12,362 FILE: Epoch/DATA4/D4SAI_S01_FI2S8ACH-epo.fif
+2024-09-27 07:24:12,362 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:24:12,362 MODELO DE CLASIFICACION: LDA
+2024-09-27 07:24:17,819 X: (160, 204)
+2024-09-27 07:24:17,819 y: (160,)
+2024-09-27 07:24:58,896 Mean Accuracy: 0.821
+2024-09-27 07:24:58,896 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.4, 'LDA__solver': 'lsqr'}
+2024-09-27 07:24:58,949 Tiempo de ejecucion: 46.584
+2024-09-27 07:24:58,962 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:24:58,963 FILE: Epoch/DATA4/D4SAI_S03_NF2S8ACH-epo.fif
+2024-09-27 07:24:58,963 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:24:58,963 MODELO DE CLASIFICACION: LDA
+2024-09-27 07:25:04,948 X: (160, 204)
+2024-09-27 07:25:04,954 y: (160,)
+2024-09-27 07:25:46,019 Mean Accuracy: 0.844
+2024-09-27 07:25:46,023 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.5, 'LDA__solver': 'lsqr'}
+2024-09-27 07:25:46,073 Tiempo de ejecucion: 47.111
+2024-09-27 07:25:46,088 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:25:46,088 FILE: Epoch/DATA4/D4SBI_S02_NF4S8ACH-epo.fif
+2024-09-27 07:25:46,088 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:25:46,088 MODELO DE CLASIFICACION: LDA
+2024-09-27 07:25:51,705 X: (160, 204)
+2024-09-27 07:25:51,705 y: (160,)
+2024-09-27 07:26:32,789 Mean Accuracy: 0.716
+2024-09-27 07:26:32,794 Config: {'LDA__n_components': None, 'LDA__shrinkage': 'auto', 'LDA__solver': 'lsqr'}
+2024-09-27 07:26:32,841 Tiempo de ejecucion: 46.754
+2024-09-27 07:26:32,847 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:26:32,848 FILE: Epoch/DATA4/D4SAI_S02_NF2S8ACH-epo.fif
+2024-09-27 07:26:32,848 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:26:32,848 MODELO DE CLASIFICACION: LDA
+2024-09-27 07:26:38,295 X: (160, 204)
+2024-09-27 07:26:38,295 y: (160,)
+2024-09-27 07:27:19,316 Mean Accuracy: 0.868
+2024-09-27 07:27:19,316 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.4, 'LDA__solver': 'lsqr'}
+2024-09-27 07:27:19,367 Tiempo de ejecucion: 46.520
+2024-09-27 07:27:19,378 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:27:19,378 FILE: Epoch/DATA4/D4SAI_S01_NF2S8ACH-epo.fif
+2024-09-27 07:27:19,378 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:27:19,378 MODELO DE CLASIFICACION: LDA
+2024-09-27 07:27:24,573 X: (160, 204)
+2024-09-27 07:27:24,573 y: (160,)
+2024-09-27 07:28:05,706 Mean Accuracy: 0.804
+2024-09-27 07:28:05,713 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.1, 'LDA__solver': 'lsqr'}
+2024-09-27 07:28:05,761 Tiempo de ejecucion: 46.383
+2024-09-27 07:28:05,771 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:28:05,772 FILE: Epoch/DATA4/D4SAI_S03_FI4S8ACH-epo.fif
+2024-09-27 07:28:05,772 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:28:05,772 MODELO DE CLASIFICACION: LDA
+2024-09-27 07:28:11,591 X: (160, 204)
+2024-09-27 07:28:11,592 y: (160,)
+2024-09-27 07:28:52,709 Mean Accuracy: 0.881
+2024-09-27 07:28:52,709 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.9, 'LDA__solver': 'lsqr'}
+2024-09-27 07:28:52,746 Tiempo de ejecucion: 46.974
+2024-09-27 07:28:52,759 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:28:52,759 FILE: Epoch/DATA4/D4SAI_S01_FI4S8ACH-epo.fif
+2024-09-27 07:28:52,760 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:28:52,760 MODELO DE CLASIFICACION: LDA
+2024-09-27 07:28:58,529 X: (160, 204)
+2024-09-27 07:28:58,530 y: (160,)
+2024-09-27 07:29:39,585 Mean Accuracy: 0.842
+2024-09-27 07:29:39,587 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.2, 'LDA__solver': 'lsqr'}
+2024-09-27 07:29:39,637 Tiempo de ejecucion: 46.879
+2024-09-27 07:29:39,652 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:29:39,652 FILE: Epoch/DATA4/D4SAI_S02_FI4S8ACH-epo.fif
+2024-09-27 07:29:39,652 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:29:39,652 MODELO DE CLASIFICACION: LDA
+2024-09-27 07:29:44,911 X: (160, 204)
+2024-09-27 07:29:44,936 y: (160,)
+2024-09-27 07:30:25,912 Mean Accuracy: 0.849
+2024-09-27 07:30:25,915 Config: {'LDA__n_components': None, 'LDA__shrinkage': 'auto', 'LDA__solver': 'lsqr'}
+2024-09-27 07:30:25,962 Tiempo de ejecucion: 46.311
+2024-09-27 07:30:25,976 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:30:25,976 FILE: Epoch/DATA4/D4SBI_S02_NF2S8ACH-epo.fif
+2024-09-27 07:30:25,976 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:30:25,976 MODELO DE CLASIFICACION: LDA
+2024-09-27 07:30:31,422 X: (160, 204)
+2024-09-27 07:30:31,423 y: (160,)
+2024-09-27 07:31:12,750 Mean Accuracy: 0.724
+2024-09-27 07:31:12,750 Config: {'LDA__n_components': None, 'LDA__shrinkage': 'auto', 'LDA__solver': 'lsqr'}
+2024-09-27 07:31:12,805 Tiempo de ejecucion: 46.828
+2024-09-27 07:31:12,814 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:31:12,814 FILE: Epoch/DATA4/D4SAI_S02_NF4S8ACH-epo.fif
+2024-09-27 07:31:12,815 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:31:12,815 MODELO DE CLASIFICACION: LDA
+2024-09-27 07:31:18,604 X: (160, 204)
+2024-09-27 07:31:18,605 y: (160,)
+2024-09-27 07:31:59,606 Mean Accuracy: 0.829
+2024-09-27 07:31:59,610 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.5, 'LDA__solver': 'lsqr'}
+2024-09-27 07:31:59,661 Tiempo de ejecucion: 46.848
+2024-09-27 07:31:59,674 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:31:59,674 FILE: Epoch/DATA4/D4SAI_S01_NF4S8ACH-epo.fif
+2024-09-27 07:31:59,674 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:31:59,674 MODELO DE CLASIFICACION: LDA
+2024-09-27 07:32:04,970 X: (160, 204)
+2024-09-27 07:32:04,971 y: (160,)
+2024-09-27 07:32:45,875 Mean Accuracy: 0.771
+2024-09-27 07:32:45,878 Config: {'LDA__n_components': None, 'LDA__shrinkage': 'auto', 'LDA__solver': 'lsqr'}
+2024-09-27 07:32:45,927 Tiempo de ejecucion: 46.254
+2024-09-27 07:32:45,941 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:32:45,942 FILE: Epoch/DATA4/D4SAI_S02_FI2S8ACH-epo.fif
+2024-09-27 07:32:45,942 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:32:45,942 MODELO DE CLASIFICACION: LDA
+2024-09-27 07:32:51,836 X: (160, 204)
+2024-09-27 07:32:51,843 y: (160,)
+2024-09-27 07:33:32,944 Mean Accuracy: 0.905
+2024-09-27 07:33:32,944 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.8, 'LDA__solver': 'lsqr'}
+2024-09-27 07:33:32,991 Tiempo de ejecucion: 47.048
+2024-09-27 07:33:33,009 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:33:33,009 FILE: Epoch/DATA4/D4SBI_S02_FI4S8ACH-epo.fif
+2024-09-27 07:33:33,009 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:33:33,009 MODELO DE CLASIFICACION: LDA
+2024-09-27 07:33:38,251 X: (160, 204)
+2024-09-27 07:33:38,252 y: (160,)
+2024-09-27 07:34:19,175 Mean Accuracy: 0.748
+2024-09-27 07:34:19,175 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.6, 'LDA__solver': 'lsqr'}
+2024-09-27 07:34:19,225 Tiempo de ejecucion: 46.218
+2024-09-27 07:34:19,231 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:34:19,231 FILE: Epoch/DATA4/D4SAI_S03_FI2S8ACH-epo.fif
+2024-09-27 07:34:19,231 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:34:19,232 MODELO DE CLASIFICACION: LDA
+2024-09-27 07:34:24,702 X: (160, 204)
+2024-09-27 07:34:24,703 y: (160,)
+2024-09-27 07:35:05,715 Mean Accuracy: 0.886
+2024-09-27 07:35:05,716 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.8, 'LDA__solver': 'lsqr'}
+2024-09-27 07:35:05,739 Tiempo de ejecucion: 46.508
+2024-09-27 07:35:05,749 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:35:05,749 FILE: Epoch/DATA4/D4SAI_S03_NF4S8ACH-epo.fif
+2024-09-27 07:35:05,749 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:35:05,750 MODELO DE CLASIFICACION: LDA
+2024-09-27 07:35:11,177 X: (160, 204)
+2024-09-27 07:35:11,177 y: (160,)
+2024-09-27 07:35:52,158 Mean Accuracy: 0.863
+2024-09-27 07:35:52,161 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.3, 'LDA__solver': 'lsqr'}
+2024-09-27 07:35:52,202 Tiempo de ejecucion: 46.454
+2024-09-27 07:35:52,424 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:35:52,424 FILE: Epoch/DATA4/D4SBI_S02_FI2S8ACH-epo.fif
+2024-09-27 07:35:52,424 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:35:52,424 MODELO DE CLASIFICACION: SVM
+2024-09-27 07:35:58,116 X: (160, 204)
+2024-09-27 07:35:58,117 y: (160,)
+2024-09-27 07:36:19,320 Mean Accuracy: 0.680
+2024-09-27 07:36:19,320 Config: {'SVM__C': 0.1, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 07:36:19,332 Tiempo de ejecucion: 26.908
+2024-09-27 07:36:19,339 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:36:19,340 FILE: Epoch/DATA4/D4SAI_S01_FI2S8ACH-epo.fif
+2024-09-27 07:36:19,340 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:36:19,340 MODELO DE CLASIFICACION: SVM
+2024-09-27 07:36:24,643 X: (160, 204)
+2024-09-27 07:36:24,649 y: (160,)
+2024-09-27 07:36:44,626 Mean Accuracy: 0.833
+2024-09-27 07:36:44,626 Config: {'SVM__C': 0.01, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 07:36:44,640 Tiempo de ejecucion: 25.300
+2024-09-27 07:36:44,645 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:36:44,646 FILE: Epoch/DATA4/D4SAI_S03_NF2S8ACH-epo.fif
+2024-09-27 07:36:44,646 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:36:44,646 MODELO DE CLASIFICACION: SVM
+2024-09-27 07:36:50,412 X: (160, 204)
+2024-09-27 07:36:50,412 y: (160,)
+2024-09-27 07:37:09,630 Mean Accuracy: 0.811
+2024-09-27 07:37:09,630 Config: {'SVM__C': 10, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'rbf'}
+2024-09-27 07:37:09,642 Tiempo de ejecucion: 24.997
+2024-09-27 07:37:09,648 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:37:09,648 FILE: Epoch/DATA4/D4SBI_S02_NF4S8ACH-epo.fif
+2024-09-27 07:37:09,648 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:37:09,649 MODELO DE CLASIFICACION: SVM
+2024-09-27 07:37:15,538 X: (160, 204)
+2024-09-27 07:37:15,538 y: (160,)
+2024-09-27 07:37:35,868 Mean Accuracy: 0.714
+2024-09-27 07:37:35,868 Config: {'SVM__C': 0.1, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 07:37:35,880 Tiempo de ejecucion: 26.232
+2024-09-27 07:37:35,886 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:37:35,886 FILE: Epoch/DATA4/D4SAI_S02_NF2S8ACH-epo.fif
+2024-09-27 07:37:35,886 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:37:35,886 MODELO DE CLASIFICACION: SVM
+2024-09-27 07:37:41,536 X: (160, 204)
+2024-09-27 07:37:41,536 y: (160,)
+2024-09-27 07:38:00,653 Mean Accuracy: 0.847
+2024-09-27 07:38:00,653 Config: {'SVM__C': 0.01, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 07:38:00,665 Tiempo de ejecucion: 24.779
+2024-09-27 07:38:00,671 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:38:00,671 FILE: Epoch/DATA4/D4SAI_S01_NF2S8ACH-epo.fif
+2024-09-27 07:38:00,672 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:38:00,672 MODELO DE CLASIFICACION: SVM
+2024-09-27 07:38:06,554 X: (160, 204)
+2024-09-27 07:38:06,555 y: (160,)
+2024-09-27 07:38:26,783 Mean Accuracy: 0.797
+2024-09-27 07:38:26,784 Config: {'SVM__C': 1, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 07:38:26,795 Tiempo de ejecucion: 26.125
+2024-09-27 07:38:26,801 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:38:26,802 FILE: Epoch/DATA4/D4SAI_S03_FI4S8ACH-epo.fif
+2024-09-27 07:38:26,802 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:38:26,802 MODELO DE CLASIFICACION: SVM
+2024-09-27 07:38:32,548 X: (160, 204)
+2024-09-27 07:38:32,548 y: (160,)
+2024-09-27 07:38:51,275 Mean Accuracy: 0.868
+2024-09-27 07:38:51,275 Config: {'SVM__C': 0.01, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 07:38:51,287 Tiempo de ejecucion: 24.486
+2024-09-27 07:38:51,293 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:38:51,293 FILE: Epoch/DATA4/D4SAI_S01_FI4S8ACH-epo.fif
+2024-09-27 07:38:51,293 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:38:51,293 MODELO DE CLASIFICACION: SVM
+2024-09-27 07:38:57,352 X: (160, 204)
+2024-09-27 07:38:57,352 y: (160,)
+2024-09-27 07:39:17,766 Mean Accuracy: 0.834
+2024-09-27 07:39:17,766 Config: {'SVM__C': 0.1, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 07:39:17,778 Tiempo de ejecucion: 26.485
+2024-09-27 07:39:17,784 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:39:17,785 FILE: Epoch/DATA4/D4SAI_S02_FI4S8ACH-epo.fif
+2024-09-27 07:39:17,785 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:39:17,785 MODELO DE CLASIFICACION: SVM
+2024-09-27 07:39:23,110 X: (160, 204)
+2024-09-27 07:39:23,110 y: (160,)
+2024-09-27 07:39:42,624 Mean Accuracy: 0.831
+2024-09-27 07:39:42,625 Config: {'SVM__C': 0.01, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 07:39:42,636 Tiempo de ejecucion: 24.852
+2024-09-27 07:39:42,642 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:39:42,643 FILE: Epoch/DATA4/D4SBI_S02_NF2S8ACH-epo.fif
+2024-09-27 07:39:42,643 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:39:42,643 MODELO DE CLASIFICACION: SVM
+2024-09-27 07:39:48,787 X: (160, 204)
+2024-09-27 07:39:48,787 y: (160,)
+2024-09-27 07:40:09,947 Mean Accuracy: 0.728
+2024-09-27 07:40:09,947 Config: {'SVM__C': 0.1, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 07:40:09,959 Tiempo de ejecucion: 27.317
+2024-09-27 07:40:09,965 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:40:09,966 FILE: Epoch/DATA4/D4SAI_S02_NF4S8ACH-epo.fif
+2024-09-27 07:40:09,966 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:40:09,966 MODELO DE CLASIFICACION: SVM
+2024-09-27 07:40:16,538 X: (160, 204)
+2024-09-27 07:40:16,544 y: (160,)
+2024-09-27 07:40:36,794 Mean Accuracy: 0.825
+2024-09-27 07:40:36,794 Config: {'SVM__C': 0.01, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 07:40:36,807 Tiempo de ejecucion: 26.842
+2024-09-27 07:40:36,813 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:40:36,814 FILE: Epoch/DATA4/D4SAI_S01_NF4S8ACH-epo.fif
+2024-09-27 07:40:36,814 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:40:36,814 MODELO DE CLASIFICACION: SVM
+2024-09-27 07:40:43,429 X: (160, 204)
+2024-09-27 07:40:43,429 y: (160,)
+2024-09-27 07:41:04,196 Mean Accuracy: 0.755
+2024-09-27 07:41:04,197 Config: {'SVM__C': 0.01, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 07:41:04,209 Tiempo de ejecucion: 27.396
+2024-09-27 07:41:04,215 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:41:04,215 FILE: Epoch/DATA4/D4SAI_S02_FI2S8ACH-epo.fif
+2024-09-27 07:41:04,215 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:41:04,215 MODELO DE CLASIFICACION: SVM
+2024-09-27 07:41:10,120 X: (160, 204)
+2024-09-27 07:41:10,121 y: (160,)
+2024-09-27 07:41:30,105 Mean Accuracy: 0.893
+2024-09-27 07:41:30,105 Config: {'SVM__C': 0.01, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 07:41:30,117 Tiempo de ejecucion: 25.902
+2024-09-27 07:41:30,123 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:41:30,123 FILE: Epoch/DATA4/D4SBI_S02_FI4S8ACH-epo.fif
+2024-09-27 07:41:30,123 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:41:30,123 MODELO DE CLASIFICACION: SVM
+2024-09-27 07:41:36,083 X: (160, 204)
+2024-09-27 07:41:36,083 y: (160,)
+2024-09-27 07:41:56,878 Mean Accuracy: 0.741
+2024-09-27 07:41:56,879 Config: {'SVM__C': 0.01, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 07:41:56,893 Tiempo de ejecucion: 26.770
+2024-09-27 07:41:56,899 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:41:56,899 FILE: Epoch/DATA4/D4SAI_S03_FI2S8ACH-epo.fif
+2024-09-27 07:41:56,900 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:41:56,900 MODELO DE CLASIFICACION: SVM
+2024-09-27 07:42:02,260 X: (160, 204)
+2024-09-27 07:42:02,265 y: (160,)
+2024-09-27 07:42:21,279 Mean Accuracy: 0.877
+2024-09-27 07:42:21,279 Config: {'SVM__C': 1, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'rbf'}
+2024-09-27 07:42:21,291 Tiempo de ejecucion: 24.392
+2024-09-27 07:42:21,297 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:42:21,297 FILE: Epoch/DATA4/D4SAI_S03_NF4S8ACH-epo.fif
+2024-09-27 07:42:21,297 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:42:21,298 MODELO DE CLASIFICACION: SVM
+2024-09-27 07:42:27,981 X: (160, 204)
+2024-09-27 07:42:27,981 y: (160,)
+2024-09-27 07:42:47,005 Mean Accuracy: 0.859
+2024-09-27 07:42:47,005 Config: {'SVM__C': 0.01, 'SVM__class_weight': None, 'SVM__gamma': 0.01, 'SVM__kernel': 'linear'}
+2024-09-27 07:42:47,017 Tiempo de ejecucion: 25.720
+2024-09-27 07:42:47,235 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:42:47,235 FILE: Epoch/DATA4/D4SBI_S02_FI2S8ACH-epo.fif
+2024-09-27 07:42:47,235 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:42:47,235 MODELO DE CLASIFICACION: KNN
+2024-09-27 07:42:53,133 X: (160, 204)
+2024-09-27 07:42:53,133 y: (160,)
+2024-09-27 07:43:11,459 Mean Accuracy: 0.582
+2024-09-27 07:43:11,459 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 7, 'KNN__weights': 'uniform'}
+2024-09-27 07:43:11,473 Tiempo de ejecucion: 24.238
+2024-09-27 07:43:11,479 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:43:11,479 FILE: Epoch/DATA4/D4SAI_S01_FI2S8ACH-epo.fif
+2024-09-27 07:43:11,479 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:43:11,479 MODELO DE CLASIFICACION: KNN
+2024-09-27 07:43:16,780 X: (160, 204)
+2024-09-27 07:43:16,780 y: (160,)
+2024-09-27 07:43:35,006 Mean Accuracy: 0.685
+2024-09-27 07:43:35,007 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'manhattan', 'KNN__n_neighbors': 7, 'KNN__weights': 'uniform'}
+2024-09-27 07:43:35,018 Tiempo de ejecucion: 23.540
+2024-09-27 07:43:35,025 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:43:35,025 FILE: Epoch/DATA4/D4SAI_S03_NF2S8ACH-epo.fif
+2024-09-27 07:43:35,025 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:43:35,025 MODELO DE CLASIFICACION: KNN
+2024-09-27 07:43:40,494 X: (160, 204)
+2024-09-27 07:43:40,494 y: (160,)
+2024-09-27 07:43:58,919 Mean Accuracy: 0.719
+2024-09-27 07:43:58,920 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'manhattan', 'KNN__n_neighbors': 12, 'KNN__weights': 'uniform'}
+2024-09-27 07:43:58,932 Tiempo de ejecucion: 23.907
+2024-09-27 07:43:58,938 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:43:58,938 FILE: Epoch/DATA4/D4SBI_S02_NF4S8ACH-epo.fif
+2024-09-27 07:43:58,938 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:43:58,938 MODELO DE CLASIFICACION: KNN
+2024-09-27 07:44:04,707 X: (160, 204)
+2024-09-27 07:44:04,708 y: (160,)
+2024-09-27 07:44:23,029 Mean Accuracy: 0.594
+2024-09-27 07:44:23,030 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'manhattan', 'KNN__n_neighbors': 12, 'KNN__weights': 'uniform'}
+2024-09-27 07:44:23,041 Tiempo de ejecucion: 24.104
+2024-09-27 07:44:23,048 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:44:23,048 FILE: Epoch/DATA4/D4SAI_S02_NF2S8ACH-epo.fif
+2024-09-27 07:44:23,048 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:44:23,048 MODELO DE CLASIFICACION: KNN
+2024-09-27 07:44:29,064 X: (160, 204)
+2024-09-27 07:44:29,065 y: (160,)
+2024-09-27 07:44:47,366 Mean Accuracy: 0.705
+2024-09-27 07:44:47,366 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 12, 'KNN__weights': 'distance'}
+2024-09-27 07:44:47,378 Tiempo de ejecucion: 24.331
+2024-09-27 07:44:47,385 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:44:47,385 FILE: Epoch/DATA4/D4SAI_S01_NF2S8ACH-epo.fif
+2024-09-27 07:44:47,385 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:44:47,385 MODELO DE CLASIFICACION: KNN
+2024-09-27 07:44:52,914 X: (160, 204)
+2024-09-27 07:44:52,915 y: (160,)
+2024-09-27 07:45:11,172 Mean Accuracy: 0.652
+2024-09-27 07:45:11,172 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 12, 'KNN__weights': 'uniform'}
+2024-09-27 07:45:11,184 Tiempo de ejecucion: 23.799
+2024-09-27 07:45:11,190 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:45:11,190 FILE: Epoch/DATA4/D4SAI_S03_FI4S8ACH-epo.fif
+2024-09-27 07:45:11,190 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:45:11,190 MODELO DE CLASIFICACION: KNN
+2024-09-27 07:45:16,595 X: (160, 204)
+2024-09-27 07:45:16,595 y: (160,)
+2024-09-27 07:45:34,904 Mean Accuracy: 0.833
+2024-09-27 07:45:34,904 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'manhattan', 'KNN__n_neighbors': 12, 'KNN__weights': 'uniform'}
+2024-09-27 07:45:34,916 Tiempo de ejecucion: 23.727
+2024-09-27 07:45:34,923 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:45:34,923 FILE: Epoch/DATA4/D4SAI_S01_FI4S8ACH-epo.fif
+2024-09-27 07:45:34,923 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:45:34,923 MODELO DE CLASIFICACION: KNN
+2024-09-27 07:45:41,520 X: (160, 204)
+2024-09-27 07:45:41,521 y: (160,)
+2024-09-27 07:45:59,847 Mean Accuracy: 0.681
+2024-09-27 07:45:59,847 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 7, 'KNN__weights': 'uniform'}
+2024-09-27 07:45:59,859 Tiempo de ejecucion: 24.937
+2024-09-27 07:45:59,866 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:45:59,866 FILE: Epoch/DATA4/D4SAI_S02_FI4S8ACH-epo.fif
+2024-09-27 07:45:59,866 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:45:59,866 MODELO DE CLASIFICACION: KNN
+2024-09-27 07:46:05,410 X: (160, 204)
+2024-09-27 07:46:05,411 y: (160,)
+2024-09-27 07:46:23,864 Mean Accuracy: 0.739
+2024-09-27 07:46:23,864 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 12, 'KNN__weights': 'distance'}
+2024-09-27 07:46:23,876 Tiempo de ejecucion: 24.011
+2024-09-27 07:46:23,883 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:46:23,883 FILE: Epoch/DATA4/D4SBI_S02_NF2S8ACH-epo.fif
+2024-09-27 07:46:23,883 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:46:23,883 MODELO DE CLASIFICACION: KNN
+2024-09-27 07:46:29,071 X: (160, 204)
+2024-09-27 07:46:29,074 y: (160,)
+2024-09-27 07:46:47,421 Mean Accuracy: 0.588
+2024-09-27 07:46:47,421 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 5, 'KNN__weights': 'uniform'}
+2024-09-27 07:46:47,436 Tiempo de ejecucion: 23.553
+2024-09-27 07:46:47,442 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:46:47,442 FILE: Epoch/DATA4/D4SAI_S02_NF4S8ACH-epo.fif
+2024-09-27 07:46:47,442 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:46:47,442 MODELO DE CLASIFICACION: KNN
+2024-09-27 07:46:52,826 X: (160, 204)
+2024-09-27 07:46:52,827 y: (160,)
+2024-09-27 07:47:11,137 Mean Accuracy: 0.697
+2024-09-27 07:47:11,138 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 12, 'KNN__weights': 'distance'}
+2024-09-27 07:47:11,149 Tiempo de ejecucion: 23.708
+2024-09-27 07:47:11,156 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:47:11,156 FILE: Epoch/DATA4/D4SAI_S01_NF4S8ACH-epo.fif
+2024-09-27 07:47:11,156 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:47:11,156 MODELO DE CLASIFICACION: KNN
+2024-09-27 07:47:16,820 X: (160, 204)
+2024-09-27 07:47:16,820 y: (160,)
+2024-09-27 07:47:35,338 Mean Accuracy: 0.619
+2024-09-27 07:47:35,338 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 12, 'KNN__weights': 'uniform'}
+2024-09-27 07:47:35,350 Tiempo de ejecucion: 24.194
+2024-09-27 07:47:35,356 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:47:35,357 FILE: Epoch/DATA4/D4SAI_S02_FI2S8ACH-epo.fif
+2024-09-27 07:47:35,357 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:47:35,357 MODELO DE CLASIFICACION: KNN
+2024-09-27 07:47:40,235 X: (160, 204)
+2024-09-27 07:47:40,235 y: (160,)
+2024-09-27 07:47:58,606 Mean Accuracy: 0.799
+2024-09-27 07:47:58,606 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 12, 'KNN__weights': 'uniform'}
+2024-09-27 07:47:58,618 Tiempo de ejecucion: 23.262
+2024-09-27 07:47:58,624 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:47:58,625 FILE: Epoch/DATA4/D4SBI_S02_FI4S8ACH-epo.fif
+2024-09-27 07:47:58,625 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:47:58,625 MODELO DE CLASIFICACION: KNN
+2024-09-27 07:48:04,220 X: (160, 204)
+2024-09-27 07:48:04,220 y: (160,)
+2024-09-27 07:48:22,561 Mean Accuracy: 0.613
+2024-09-27 07:48:22,561 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 9, 'KNN__weights': 'distance'}
+2024-09-27 07:48:22,573 Tiempo de ejecucion: 23.949
+2024-09-27 07:48:22,579 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:48:22,579 FILE: Epoch/DATA4/D4SAI_S03_FI2S8ACH-epo.fif
+2024-09-27 07:48:22,579 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:48:22,579 MODELO DE CLASIFICACION: KNN
+2024-09-27 07:48:27,998 X: (160, 204)
+2024-09-27 07:48:28,003 y: (160,)
+2024-09-27 07:48:46,351 Mean Accuracy: 0.844
+2024-09-27 07:48:46,351 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'euclidean', 'KNN__n_neighbors': 9, 'KNN__weights': 'uniform'}
+2024-09-27 07:48:46,364 Tiempo de ejecucion: 23.785
+2024-09-27 07:48:46,370 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:48:46,370 FILE: Epoch/DATA4/D4SAI_S03_NF4S8ACH-epo.fif
+2024-09-27 07:48:46,370 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:48:46,370 MODELO DE CLASIFICACION: KNN
+2024-09-27 07:48:52,783 X: (160, 204)
+2024-09-27 07:48:52,783 y: (160,)
+2024-09-27 07:49:11,525 Mean Accuracy: 0.744
+2024-09-27 07:49:11,525 Config: {'KNN__algorithm': 'auto', 'KNN__metric': 'manhattan', 'KNN__n_neighbors': 9, 'KNN__weights': 'uniform'}
+2024-09-27 07:49:11,538 Tiempo de ejecucion: 25.168
+2024-09-27 07:49:11,779 --------------------------------------------------------------------------------------------------------
+2024-09-27 07:49:11,780 FILE: Epoch/DATA4/D4SBI_S02_FI2S8ACH-epo.fif
+2024-09-27 07:49:11,780 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 07:49:11,780 MODELO DE CLASIFICACION: ANN
+2024-09-27 07:49:17,291 X: (160, 204)
+2024-09-27 07:49:17,292 y: (160,)
+2024-09-27 08:04:22,782 Mean Accuracy: 0.726
+2024-09-27 08:04:22,782 Config: {'ANN__activation': 'relu', 'ANN__alpha': 0.001, 'ANN__hidden_layer_sizes': (100,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 08:04:22,807 Tiempo de ejecucion: 911.027
+2024-09-27 08:04:22,819 --------------------------------------------------------------------------------------------------------
+2024-09-27 08:04:22,819 FILE: Epoch/DATA4/D4SAI_S01_FI2S8ACH-epo.fif
+2024-09-27 08:04:22,819 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 08:04:22,819 MODELO DE CLASIFICACION: ANN
+2024-09-27 08:04:28,119 X: (160, 204)
+2024-09-27 08:04:28,120 y: (160,)
+2024-09-27 08:18:42,329 Mean Accuracy: 0.833
+2024-09-27 08:18:42,329 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100, 50), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 08:18:42,367 Tiempo de ejecucion: 859.549
+2024-09-27 08:18:42,379 --------------------------------------------------------------------------------------------------------
+2024-09-27 08:18:42,379 FILE: Epoch/DATA4/D4SAI_S03_NF2S8ACH-epo.fif
+2024-09-27 08:18:42,379 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 08:18:42,379 MODELO DE CLASIFICACION: ANN
+2024-09-27 08:18:48,297 X: (160, 204)
+2024-09-27 08:18:48,297 y: (160,)
+2024-09-27 08:32:05,387 Mean Accuracy: 0.857
+2024-09-27 08:32:05,387 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (50, 50), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 08:32:05,412 Tiempo de ejecucion: 803.034
+2024-09-27 08:32:05,424 --------------------------------------------------------------------------------------------------------
+2024-09-27 08:32:05,424 FILE: Epoch/DATA4/D4SBI_S02_NF4S8ACH-epo.fif
+2024-09-27 08:32:05,425 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 08:32:05,425 MODELO DE CLASIFICACION: ANN
+2024-09-27 08:32:11,337 X: (160, 204)
+2024-09-27 08:32:11,337 y: (160,)
+2024-09-27 08:47:08,990 Mean Accuracy: 0.736
+2024-09-27 08:47:08,991 Config: {'ANN__activation': 'relu', 'ANN__alpha': 0.001, 'ANN__hidden_layer_sizes': (50, 50), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'sgd'}
+2024-09-27 08:47:09,017 Tiempo de ejecucion: 903.593
+2024-09-27 08:47:09,030 --------------------------------------------------------------------------------------------------------
+2024-09-27 08:47:09,030 FILE: Epoch/DATA4/D4SAI_S02_NF2S8ACH-epo.fif
+2024-09-27 08:47:09,030 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 08:47:09,030 MODELO DE CLASIFICACION: ANN
+2024-09-27 08:47:15,250 X: (160, 204)
+2024-09-27 08:47:15,250 y: (160,)
+2024-09-27 09:00:50,042 Mean Accuracy: 0.879
+2024-09-27 09:00:50,042 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.001, 'ANN__hidden_layer_sizes': (100,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 09:00:50,067 Tiempo de ejecucion: 821.039
+2024-09-27 09:00:50,080 --------------------------------------------------------------------------------------------------------
+2024-09-27 09:00:50,080 FILE: Epoch/DATA4/D4SAI_S01_NF2S8ACH-epo.fif
+2024-09-27 09:00:50,080 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 09:00:50,080 MODELO DE CLASIFICACION: ANN
+2024-09-27 09:00:55,606 X: (160, 204)
+2024-09-27 09:00:55,607 y: (160,)
+2024-09-27 09:15:19,826 Mean Accuracy: 0.811
+2024-09-27 09:15:19,826 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100, 50), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 09:15:19,852 Tiempo de ejecucion: 869.773
+2024-09-27 09:15:19,864 --------------------------------------------------------------------------------------------------------
+2024-09-27 09:15:19,864 FILE: Epoch/DATA4/D4SAI_S03_FI4S8ACH-epo.fif
+2024-09-27 09:15:19,864 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 09:15:19,864 MODELO DE CLASIFICACION: ANN
+2024-09-27 09:15:24,955 X: (160, 204)
+2024-09-27 09:15:24,955 y: (160,)
+2024-09-27 09:28:34,790 Mean Accuracy: 0.872
+2024-09-27 09:28:34,790 Config: {'ANN__activation': 'relu', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'sgd'}
+2024-09-27 09:28:34,816 Tiempo de ejecucion: 794.953
+2024-09-27 09:28:34,829 --------------------------------------------------------------------------------------------------------
+2024-09-27 09:28:34,829 FILE: Epoch/DATA4/D4SAI_S01_FI4S8ACH-epo.fif
+2024-09-27 09:28:34,829 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 09:28:34,829 MODELO DE CLASIFICACION: ANN
+2024-09-27 09:28:40,491 X: (160, 204)
+2024-09-27 09:28:40,491 y: (160,)
+2024-09-27 09:42:50,531 Mean Accuracy: 0.842
+2024-09-27 09:42:50,532 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (50,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 09:42:50,557 Tiempo de ejecucion: 855.730
+2024-09-27 09:42:50,570 --------------------------------------------------------------------------------------------------------
+2024-09-27 09:42:50,570 FILE: Epoch/DATA4/D4SAI_S02_FI4S8ACH-epo.fif
+2024-09-27 09:42:50,570 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 09:42:50,570 MODELO DE CLASIFICACION: ANN
+2024-09-27 09:42:56,058 X: (160, 204)
+2024-09-27 09:42:56,059 y: (160,)
+2024-09-27 09:57:44,590 Mean Accuracy: 0.834
+2024-09-27 09:57:44,590 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100, 50), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 09:57:44,616 Tiempo de ejecucion: 894.047
+2024-09-27 09:57:44,628 --------------------------------------------------------------------------------------------------------
+2024-09-27 09:57:44,628 FILE: Epoch/DATA4/D4SBI_S02_NF2S8ACH-epo.fif
+2024-09-27 09:57:44,628 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 09:57:44,628 MODELO DE CLASIFICACION: ANN
+2024-09-27 09:57:50,163 X: (160, 204)
+2024-09-27 09:57:50,163 y: (160,)
+2024-09-27 10:12:52,044 Mean Accuracy: 0.715
+2024-09-27 10:12:52,044 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 10:12:52,070 Tiempo de ejecucion: 907.442
+2024-09-27 10:12:52,082 --------------------------------------------------------------------------------------------------------
+2024-09-27 10:12:52,082 FILE: Epoch/DATA4/D4SAI_S02_NF4S8ACH-epo.fif
+2024-09-27 10:12:52,082 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 10:12:52,083 MODELO DE CLASIFICACION: ANN
+2024-09-27 10:12:57,156 X: (160, 204)
+2024-09-27 10:12:57,156 y: (160,)
+2024-09-27 10:27:21,392 Mean Accuracy: 0.824
+2024-09-27 10:27:21,393 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 10:27:21,424 Tiempo de ejecucion: 869.342
+2024-09-27 10:27:21,437 --------------------------------------------------------------------------------------------------------
+2024-09-27 10:27:21,437 FILE: Epoch/DATA4/D4SAI_S01_NF4S8ACH-epo.fif
+2024-09-27 10:27:21,437 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 10:27:21,437 MODELO DE CLASIFICACION: ANN
+2024-09-27 10:27:26,750 X: (160, 204)
+2024-09-27 10:27:26,751 y: (160,)
+2024-09-27 10:41:43,139 Mean Accuracy: 0.796
+2024-09-27 10:41:43,140 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100, 50), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 10:41:43,165 Tiempo de ejecucion: 861.729
+2024-09-27 10:41:43,177 --------------------------------------------------------------------------------------------------------
+2024-09-27 10:41:43,178 FILE: Epoch/DATA4/D4SAI_S02_FI2S8ACH-epo.fif
+2024-09-27 10:41:43,178 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 10:41:43,178 MODELO DE CLASIFICACION: ANN
+2024-09-27 10:41:48,444 X: (160, 204)
+2024-09-27 10:41:48,445 y: (160,)
+2024-09-27 10:55:45,605 Mean Accuracy: 0.888
+2024-09-27 10:55:45,605 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (50,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 10:55:45,631 Tiempo de ejecucion: 842.454
+2024-09-27 10:55:45,641 --------------------------------------------------------------------------------------------------------
+2024-09-27 10:55:45,642 FILE: Epoch/DATA4/D4SBI_S02_FI4S8ACH-epo.fif
+2024-09-27 10:55:45,642 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 10:55:45,642 MODELO DE CLASIFICACION: ANN
+2024-09-27 10:55:50,825 X: (160, 204)
+2024-09-27 10:55:50,825 y: (160,)
+2024-09-27 11:10:50,615 Mean Accuracy: 0.750
+2024-09-27 11:10:50,615 Config: {'ANN__activation': 'relu', 'ANN__alpha': 0.001, 'ANN__hidden_layer_sizes': (50,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 11:10:50,642 Tiempo de ejecucion: 905.001
+2024-09-27 11:10:50,654 --------------------------------------------------------------------------------------------------------
+2024-09-27 11:10:50,655 FILE: Epoch/DATA4/D4SAI_S03_FI2S8ACH-epo.fif
+2024-09-27 11:10:50,655 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 11:10:50,655 MODELO DE CLASIFICACION: ANN
+2024-09-27 11:10:56,489 X: (160, 204)
+2024-09-27 11:10:56,489 y: (160,)
+2024-09-27 11:23:46,936 Mean Accuracy: 0.881
+2024-09-27 11:23:46,936 Config: {'ANN__activation': 'tanh', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100, 50), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 11:23:46,962 Tiempo de ejecucion: 776.308
+2024-09-27 11:23:46,975 --------------------------------------------------------------------------------------------------------
+2024-09-27 11:23:46,975 FILE: Epoch/DATA4/D4SAI_S03_NF4S8ACH-epo.fif
+2024-09-27 11:23:46,976 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-27 11:23:46,976 MODELO DE CLASIFICACION: ANN
+2024-09-27 11:23:52,441 X: (160, 204)
+2024-09-27 11:23:52,441 y: (160,)
+2024-09-27 11:37:29,457 Mean Accuracy: 0.863
+2024-09-27 11:37:29,457 Config: {'ANN__activation': 'relu', 'ANN__alpha': 0.0001, 'ANN__hidden_layer_sizes': (100,), 'ANN__learning_rate': 'constant', 'ANN__max_iter': 200, 'ANN__solver': 'adam'}
+2024-09-27 11:37:29,483 Tiempo de ejecucion: 822.509
