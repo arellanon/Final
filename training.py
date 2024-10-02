@@ -335,7 +335,9 @@ def runProcess(file, method, classification):
         'accuracy': 'accuracy',
         'precision': make_scorer(precision_score),
         'recall': make_scorer(recall_score),
-        'f1': make_scorer(f1_score)
+        'f1': make_scorer(f1_score),
+        'roc_auc': 'roc_auc',  # Agregar ROC AUC,
+        'log_loss': 'neg_log_loss'  # Agregar Log Loss
     }
     
     #Busca la mejor configuracion
@@ -343,7 +345,7 @@ def runProcess(file, method, classification):
     results = search.fit(X, y)
 
     #columns =[ "params", "mean_test_score", "std_test_score"]
-    columns =["mean_fit_time", "std_fit_time", "mean_score_time", "std_score_time", "params", "mean_test_accuracy", "std_test_accuracy", "mean_test_precision", "std_test_precision", "mean_test_recall", "std_test_recall", "mean_test_f1", "std_test_f1"]    
+    columns =["mean_fit_time", "std_fit_time", "mean_score_time", "std_score_time", "params", "mean_test_accuracy", "std_test_accuracy", "mean_test_precision", "std_test_precision", "mean_test_recall", "std_test_recall", "mean_test_f1", "std_test_f1", "mean_test_roc_auc", "std_test_roc_auc", "mean_test_log_loss", "std_test_log_loss"]
     #columns =["mean_fit_time", "std_fit_time", "mean_score_time", "std_score_time", "params", "mean_test_accuracy", "std_test_accuracy", "mean_test_recall", "std_test_recall", "mean_test_f1", "std_test_f1"]    
 
     
@@ -357,7 +359,7 @@ def runProcess(file, method, classification):
     return df
 
     
-def run(folder_input, folder_output):
+def run(folder_input, folder_output, dataset):
     logging.info('input: %s ', folder_input)
     logging.info('output: %s ', folder_output)
     
@@ -366,10 +368,14 @@ def run(folder_input, folder_output):
     #method_feature_extraction = ["CSP"]
     
     #Definimos los modelos de clasificacion a analizar
-    #classifications = ["LDA", "SVM", "KNN", "ANN"]
-    classifications = ["LDA"]
+    classifications = ["LDA", "SVM", "KNN", "ANN"]
+    #classifications = ["LDA"]
+    
+    first_total = True
+    fout_total = folder_output + dataset + ".csv"
     
     for method in method_feature_extraction:
+        
         first_method = True
         fout_method = folder_output + method + ".csv"
         for clf in classifications:
@@ -378,32 +384,52 @@ def run(folder_input, folder_output):
             for root, dirs, files in os.walk(folder_input):
                 for file in files:
                     filename=os.path.join(root, file)
-                    df_clf = runProcess(filename, method, clf)
-                    
-                    #Guardamos las metricas para el method y clasificador
-                    df_clf.to_csv(fout_clf, mode="w" if first_clf else "a", index=False, header=first_clf)
+                    df = runProcess(filename, method, clf)
+                    if first_clf: 
+                        df_clf = df
+                    else :
+                        df_clf = pd.concat([df_clf, df], ignore_index=True)    
                     first_clf = False
-                    
-                    #Append datos
-                    try:
-                        df_method
-                    except NameError:
-                        # Si df no existe, simplemente asigna df_to_append
-                        df_method = df_clf
-                    else:
-                        # Si df ya existe, entonces lo appendea con df_to_append
-                        df_method = pd.concat([df_method, df_clf], ignore_index=True)
             
-            df_method.to_csv(fout_method, mode="w" if first_method else "a", index=False, header=first_method)
+            #Se guarda archivo por metodo y clasificador
+            df_clf.to_csv(fout_clf, mode="w", index=False, header=True)
+            
+            if first_method:
+                df_method = df_clf
+            else :
+                df_method = pd.concat([df_method, df_clf], ignore_index=True)
+            first_method = False
+        
+        #Se guarda archivo por metodo y clasificador    
+        df_method.to_csv(fout_method, mode="w", index=False, header=True)        
+        if first_total:
+            df_total = df_method
+        else :
+            df_total = pd.concat([df_total, df_method], ignore_index=True)
+        first_total = False    
+    #Se guarda archivo de resultados del dataset
+    df_total.to_csv(fout_total, mode="w", index=False, header=True)
                              
 def main():
     logging.getLogger('mne').setLevel(logging.ERROR)
     logging.basicConfig(filename="example.log", filemode="w", level=logging.DEBUG, format='%(asctime)s %(message)s')
     # Suprimir la advertencia de convergencia    
-    dataset = "/DATAQ/"
-    folder_input = "Epoch" + dataset
-    folder_output= "Output6" + dataset
-    run(folder_input, folder_output)
+    dataset = "DATA3"
+    #dataset = "DATAQ"
+    folder_input = "Epoch/" + dataset + "/"
+    folder_output= "Output6/" + dataset + "/"
+    
+    total_inicio=time.time()
+    #EJECUCION DEL PROGRAMA
+    run(folder_input, folder_output, dataset)
+    
+    total_final= time.time()
+    total_duracion = total_final-total_inicio
+    
+    total_time = time.strftime("%H:%M:%S", time.gmtime(total_duracion))
+    print("Tiempo total de ejecucion: ", total_time, "- segundos: ", total_duracion)
+    #logging.info("Tiempo de ejecucion: %.3f" % tduracion)
+    logging.info("Tiempo total de ejecución: %s  - segundos:  %.3f" % (total_time, total_duracion))
 
 if __name__ == "__main__":
     main()

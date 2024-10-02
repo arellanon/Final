@@ -1,0 +1,133 @@
+2024-09-28 20:03:13,689 input: Epoch/DATAQ/ 
+2024-09-28 20:03:13,690 output: Output6/DATAQ/ 
+2024-09-28 20:03:13,690 --------------------------------------------------------------------------------------------------------
+2024-09-28 20:03:13,691 FILE: Epoch/DATAQ/D3S02I_S01_FI4S15CH-epo.fif
+2024-09-28 20:03:13,691 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-28 20:03:13,691 MODELO DE CLASIFICACION: LDA
+2024-09-28 20:03:14,804 X: (150, 2)
+2024-09-28 20:03:14,805 y: (150,)
+2024-09-28 20:03:34,344 Mean Accuracy: 0.799
+2024-09-28 20:03:34,344 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.9, 'LDA__solver': 'lsqr'}
+2024-09-28 20:03:34,359 Tiempo de ejecución: 00:00:20  - segundos:  20.654
+2024-09-28 20:03:34,738 --------------------------------------------------------------------------------------------------------
+2024-09-28 20:03:34,739 FILE: Epoch/DATAQ/D3S02I_S01_FI4S15CH-epo.fif
+2024-09-28 20:03:34,739 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-28 20:03:34,739 MODELO DE CLASIFICACION: LDA
+2024-09-28 20:03:39,328 X: (150, 34)
+2024-09-28 20:03:39,329 y: (150,)
+2024-09-28 20:04:05,369 Mean Accuracy: 0.844
+2024-09-28 20:04:05,371 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.4, 'LDA__solver': 'lsqr'}
+2024-09-28 20:04:05,397 Tiempo de ejecución: 00:00:30  - segundos:  30.631
+2024-09-28 20:04:05,577 --------------------------------------------------------------------------------------------------------
+2024-09-28 20:04:05,578 FILE: Epoch/DATAQ/D3S02I_S01_FI4S15CH-epo.fif
+2024-09-28 20:04:05,578 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-28 20:04:05,578 MODELO DE CLASIFICACION: LDA
+2024-09-28 20:04:17,574 X: (150, 204)
+2024-09-28 20:04:17,574 y: (150,)
+2024-09-28 20:05:09,519 Mean Accuracy: 0.943
+2024-09-28 20:05:09,519 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.2, 'LDA__solver': 'lsqr'}
+2024-09-28 20:05:09,583 Tiempo de ejecución: 00:01:03  - segundos:  63.938
+2024-09-28 20:05:09,864 Tiempo total de ejecución: 00:01:56  - segundos:  116.175
+2024-09-28 20:18:07,205 input: Epoch/DATAQ/ 
+2024-09-28 20:18:07,206 output: Output6/DATAQ/ 
+2024-09-28 20:18:07,206 --------------------------------------------------------------------------------------------------------
+2024-09-28 20:18:07,206 FILE: Epoch/DATAQ/D3S02I_S01_FI4S15CH-epo.fif
+2024-09-28 20:18:07,207 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-28 20:18:07,207 MODELO DE CLASIFICACION: LDA
+2024-09-28 20:18:07,482 X: (150, 2)
+2024-09-28 20:18:07,483 y: (150,)
+2024-09-28 20:18:30,432 Mean Accuracy: 0.799
+2024-09-28 20:18:30,432 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.9, 'LDA__solver': 'lsqr'}
+2024-09-28 20:18:30,453 Tiempo de ejecución: 00:00:23  - segundos:  23.226
+2024-09-28 20:18:30,602 --------------------------------------------------------------------------------------------------------
+2024-09-28 20:18:30,602 FILE: Epoch/DATAQ/D3S02I_S01_FI4S15CH-epo.fif
+2024-09-28 20:18:30,602 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-28 20:18:30,602 MODELO DE CLASIFICACION: LDA
+2024-09-28 20:18:35,844 X: (150, 34)
+2024-09-28 20:18:35,844 y: (150,)
+2024-09-28 20:19:03,386 Mean Accuracy: 0.844
+2024-09-28 20:19:03,386 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.4, 'LDA__solver': 'lsqr'}
+2024-09-28 20:19:03,405 Tiempo de ejecución: 00:00:32  - segundos:  32.784
+2024-09-28 20:19:03,516 --------------------------------------------------------------------------------------------------------
+2024-09-28 20:19:03,517 FILE: Epoch/DATAQ/D3S02I_S01_FI4S15CH-epo.fif
+2024-09-28 20:19:03,517 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-28 20:19:03,517 MODELO DE CLASIFICACION: LDA
+2024-09-28 20:19:16,332 X: (150, 204)
+2024-09-28 20:19:16,332 y: (150,)
+2024-09-28 20:20:09,457 Mean Accuracy: 0.943
+2024-09-28 20:20:09,457 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.2, 'LDA__solver': 'lsqr'}
+2024-09-28 20:20:09,497 Tiempo de ejecución: 00:01:05  - segundos:  65.941
+2024-09-28 20:20:09,762 Tiempo total de ejecución: 00:02:02  - segundos:  122.556
+2024-09-28 20:22:25,958 input: Epoch/DATAQ/ 
+2024-09-28 20:22:25,958 output: Output6/DATAQ/ 
+2024-09-28 20:22:25,959 --------------------------------------------------------------------------------------------------------
+2024-09-28 20:22:25,960 FILE: Epoch/DATAQ/D3S02I_S01_FI4S15CH-epo.fif
+2024-09-28 20:22:25,961 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-28 20:22:25,961 MODELO DE CLASIFICACION: LDA
+2024-09-28 20:22:26,157 X: (150, 2)
+2024-09-28 20:22:26,157 y: (150,)
+2024-09-28 20:22:46,212 Mean Accuracy: 0.799
+2024-09-28 20:22:46,213 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.9, 'LDA__solver': 'lsqr'}
+2024-09-28 20:22:46,230 Tiempo de ejecución: 00:00:20  - segundos:  20.254
+2024-09-28 20:22:46,236 --------------------------------------------------------------------------------------------------------
+2024-09-28 20:22:46,236 FILE: Epoch/DATAQ/D3S02I_S01_FI4S15CH-epo.fif
+2024-09-28 20:22:46,236 METODO DE EXTRACION DE CARACTERISTICAS: PFBCSP
+2024-09-28 20:22:46,236 MODELO DE CLASIFICACION: LDA
+2024-09-28 20:22:50,899 X: (150, 34)
+2024-09-28 20:22:50,899 y: (150,)
+2024-09-28 20:23:22,472 Mean Accuracy: 0.844
+2024-09-28 20:23:22,473 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.4, 'LDA__solver': 'lsqr'}
+2024-09-28 20:23:22,490 Tiempo de ejecución: 00:00:36  - segundos:  36.237
+2024-09-28 20:23:22,498 --------------------------------------------------------------------------------------------------------
+2024-09-28 20:23:22,498 FILE: Epoch/DATAQ/D3S02I_S01_FI4S15CH-epo.fif
+2024-09-28 20:23:22,498 METODO DE EXTRACION DE CARACTERISTICAS: PTFBCSP
+2024-09-28 20:23:22,498 MODELO DE CLASIFICACION: LDA
+2024-09-28 20:23:33,384 X: (150, 204)
+2024-09-28 20:23:33,384 y: (150,)
+2024-09-28 20:24:22,372 Mean Accuracy: 0.943
+2024-09-28 20:24:22,373 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.2, 'LDA__solver': 'lsqr'}
+2024-09-28 20:24:22,410 Tiempo de ejecución: 00:00:59  - segundos:  59.874
+2024-09-28 20:24:22,437 Tiempo total de ejecución: 00:01:56  - segundos:  116.478
+2024-09-28 20:25:39,162 input: Epoch/DATAR/ 
+2024-09-28 20:25:39,163 output: Output6/DATAR/ 
+2024-09-28 20:25:39,163 --------------------------------------------------------------------------------------------------------
+2024-09-28 20:25:39,163 FILE: Epoch/DATAR/D3S02I_S01_FI4S15CH-epo.fif
+2024-09-28 20:25:39,164 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-28 20:25:39,164 MODELO DE CLASIFICACION: LDA
+2024-09-28 20:25:39,401 X: (150, 2)
+2024-09-28 20:25:39,402 y: (150,)
+2024-09-28 20:26:21,057 input: Epoch/DATAR/ 
+2024-09-28 20:26:21,057 output: Output6/DATAR/ 
+2024-09-28 20:26:21,057 --------------------------------------------------------------------------------------------------------
+2024-09-28 20:26:21,058 FILE: Epoch/DATAR/D3S02I_S01_FI4S15CH-epo.fif
+2024-09-28 20:26:21,058 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-28 20:26:21,059 MODELO DE CLASIFICACION: LDA
+2024-09-28 20:26:21,323 X: (150, 2)
+2024-09-28 20:26:21,323 y: (150,)
+2024-09-28 20:26:43,639 Mean Accuracy: 0.799
+2024-09-28 20:26:43,639 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.9, 'LDA__solver': 'lsqr'}
+2024-09-28 20:26:43,655 Tiempo de ejecución: 00:00:22  - segundos:  22.581
+2024-09-28 20:26:43,656 --------------------------------------------------------------------------------------------------------
+2024-09-28 20:26:43,656 FILE: Epoch/DATAR/D3S02I_S01_FI2S8ACH-epo.fif
+2024-09-28 20:26:43,656 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-28 20:26:43,656 MODELO DE CLASIFICACION: LDA
+2024-09-28 20:26:43,729 X: (150, 2)
+2024-09-28 20:26:43,729 y: (150,)
+2024-09-28 20:27:05,428 Mean Accuracy: 0.780
+2024-09-28 20:27:05,428 Config: {'LDA__n_components': None, 'LDA__shrinkage': 0.6, 'LDA__solver': 'lsqr'}
+2024-09-28 20:27:05,445 Tiempo de ejecución: 00:00:21  - segundos:  21.772
+2024-09-28 20:27:05,453 --------------------------------------------------------------------------------------------------------
+2024-09-28 20:27:05,454 FILE: Epoch/DATAR/D3S02I_S01_FI4S15CH-epo.fif
+2024-09-28 20:27:05,454 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-28 20:27:05,454 MODELO DE CLASIFICACION: SVM
+2024-09-28 20:27:05,656 X: (150, 2)
+2024-09-28 20:27:05,657 y: (150,)
+2024-09-28 20:27:28,078 Mean Accuracy: 0.806
+2024-09-28 20:27:28,079 Config: {'SVM__C': 10, 'SVM__class_weight': 'balanced', 'SVM__gamma': 1, 'SVM__kernel': 'rbf'}
+2024-09-28 20:27:28,096 Tiempo de ejecución: 00:00:22  - segundos:  22.625
+2024-09-28 20:27:28,096 --------------------------------------------------------------------------------------------------------
+2024-09-28 20:27:28,097 FILE: Epoch/DATAR/D3S02I_S01_FI2S8ACH-epo.fif
+2024-09-28 20:27:28,097 METODO DE EXTRACION DE CARACTERISTICAS: CSP
+2024-09-28 20:27:28,097 MODELO DE CLASIFICACION: SVM
+2024-09-28 20:27:28,183 X: (150, 2)
+2024-09-28 20:27:28,187 y: (150,)
